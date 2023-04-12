@@ -27,9 +27,19 @@ public class Chou {
 		System.out.println("a와 b의 값을 바꿉니다.");
 		System.out.printf("a는 %d이고, b는 %d이다.\n", a, b);
 		System.out.println("printf는 파이썬의 .format과 같다!");
-		
+		int x = 1;
+		int y = 2;
+		int z = 3;
+		c = x;
+		x = z;
+		z = y;
+		y = c;
+		System.out.println("x="+ x);
+		System.out.println("y="+ y);
+		System.out.println("z="+ z);
 	    
 
 	}
 
 }
+
