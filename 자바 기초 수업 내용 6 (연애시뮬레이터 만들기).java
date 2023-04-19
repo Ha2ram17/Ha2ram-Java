@@ -35,7 +35,7 @@ public class Gda {
 		} else {
 			System.out.println("그냥 부숴먹어야지 헤헤");
 		}
-		System.out.println("배부르다 ㅎㅎㅎㅎ");
+		System.out.println("배부르다 ㅎㅎㅎㅎ"); //힌결아 연애시뮬레이터같은거는 없어
 			
 		
 		
