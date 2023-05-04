@@ -5,11 +5,8 @@
 ##                한글화 작업 - Ha2ram17             ##
 ##                                                  ##
 ######################################################
+
 # If you wish to create a new language file, please copy this one.
-# Make sure you give the name a correct language name.
-# https://www.oracle.com/technetwork/java/javase/java8locales-2095355.html
-# You can find a tutorial about configuring messages here:
-# https://wiki.bg-software.com/superiorskyblock/messages
 
 ADMIN_ADD_PLAYER: ‘&e&l섬 | &7{1}의 섬에 성공적으로 플레이어 {0}을 추가했습니다.’ 
 ADMIN_ADD_PLAYER_NAME: ‘&e&l섬 | &7{1} 섬에 성공적으로 플레이어 {0}을 추가했습니다.’
