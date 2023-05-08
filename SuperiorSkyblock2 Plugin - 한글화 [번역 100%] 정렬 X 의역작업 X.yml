@@ -2,297 +2,302 @@
 ##                                                  ##
 ##                SuperiorSkyblock 2                ##
 ##                Developed by Ome_R                ##
-##                한글화 작업 - Ha2ram17             ##
 ##                                                  ##
 ######################################################
 
 # If you wish to create a new language file, please copy this one.
+# Make sure you give the name a correct language name.
+# https://www.oracle.com/technetwork/java/javase/java8locales-2095355.html
+# You can find a tutorial about configuring messages here:
+# https://wiki.bg-software.com/superiorskyblock/messages
 
-ADMIN_ADD_PLAYER: ‘&e&l섬 | &7{1}의 섬에 성공적으로 플레이어 {0}을 추가했습니다.’ 
-ADMIN_ADD_PLAYER_NAME: ‘&e&l섬 | &7{1} 섬에 성공적으로 플레이어 {0}을 추가했습니다.’
-ADMIN_DEPOSIT_MONEY: ‘&e&l은행 | &7{1}의 섬 은행에 ${0}을 입금했습니다.’
-ADMIN_DEPOSIT_MONEY_NAME: ‘&e&l은행 | &7{1} 섬의 은행에 ${0}을 입금했습니다.’
-ADMIN_HELP_FOOTER: ‘&e&lSuperiorSkyblock &7Ome_R에 의해 개발되었음 [한글화 - Ha2ram17]’
-ADMIN_HELP_HEADER: ‘&e&lSuperiorSkyblock &7관리자 명령어 목록 [{0}/{1}]:’
-ADMIN_HELP_LINE: ’&e/{0} &f- &7{1}'
-ADMIN_HELP_NEXT_PAGE: ‘&e&lSuperiorSkyblock &7다음 페이지를 위해 /is admin {0}을 사용하세요.’
-ALREADY_IN_ISLAND: ‘&c&l오류 | &7이미 섬에 있습니다.’
-ALREADY_IN_ISLAND_OTHER: ‘&c&l오류 | &7이 플레이어는 이미 당신의 섬의 구성원입니다.’
-BAN_ANNOUNCEMENT: ‘&e&l섬 | &7{0}은 {1}에 의해 섬에서 차단되었습니다.’ 
-BAN_PLAYERS_WITH_LOWER_ROLE: ‘&c&l오류 | &7당신은 당신보다 낮은 섬 역할을 가진 플레이어만 차단할 수 있습니다.’
-BANK_DEPOSIT_CUSTOM: ‘&e&l은행 | &7입금하고 싶은 금액을 입력하세요:’
-BANK_DEPOSIT_COMPLETED: ‘입금 완료’ 
-BANK_LIMIT_EXCEED: ‘&c&l오류 | &7은행 한도를 초과했습니다.’
-BANK_WITHDRAW_CUSTOM:  | ‘&e&l은행 | &7출금하고 싶은 금액을 입력하세요:’ 
-BANK_WITHDRAW_COMPLETED: ‘출금 완료’
-BANNED_FROM_ISLAND: ‘&c&l오류 | &7이 섬에서 차단되었습니다.’
-BLOCK_COUNT_CHECK: ‘&e&l섬 | &7이 섬에는 x{0} {1}이 있습니다.’
-BLOCK_COUNTS_CHECK: ‘&e&l섬 | &7이 섬에는 다음 블록이 있습니다: &7{0}’
-BLOCK_COUNTS_CHECK_EMPTY: ‘&e&l섬 | &7이 섬에는 추적된 블록이 없습니다.’
-BLOCK_COUNTS_CHECK_MATERIAL: ‘x{0} {1}’
-BLOCK_LEVEL: ‘&e&l레벨 | &7블록 {0}의 레벨은 {1}입니다.’
-BLOCK_LEVEL_WORTHLESS: ‘&e&l레벨 | &7블록 {0}은 가치가 없습니다.’
-BLOCK_VALUE: ‘&e&l가치 | &7블록 {0}의 가치는 {1}입니다.’
-BLOCK_VALUE_WORTHLESS: ‘&e&l가치 | &7블록 {0}은 가치가 없습니다.’
-BONUS_SET_SUCCESS: ‘&e&l섬 | &7섬 보너스를 성공적으로 {0}로 업데이트했습니다.’
-BONUS_SYNC_ALL: ‘&e&l섬 | &7모든 섬의 섬 보너스를 성공적으로 동기화했습니다.’
-BONUS_SYNC_NAME: ‘&e&l섬 | &7{0}의 섬 보너스를 성공적으로 동기화했습니다.’ 
-BONUS_SYNC: ‘&e&l섬 | &7{0}의 섬의 섬 보너스를 성공적으로 동기화했습니다.’ 
-BORDER_PLAYER_COLOR_NAME_BLUE: ‘파란색’
-BORDER_PLAYER_COLOR_NAME_RED: ‘빨간색’
-BORDER_PLAYER_COLOR_NAME_GREEN: ‘초록색’
-BORDER_PLAYER_COLOR_UPDATED: ‘&e&l경계 | &7개인 경계 색상을 성공적으로 {0}로 변경했습니다.’
-BUILD_OUTSIDE_ISLAND: ‘&c&l오류 | &7보호 범위 밖에서 건설할 수 없습니다.’
-CANNOT_SET_ROLE: ‘&c&l오류 | &7플레이어의 역할을 {0}로 설정할 수 없습니다.’
-CHANGE_PERMISSION_FOR_HIGHER_ROLE: ‘&c&l오류 | &7당신은 당신보다 낮은 섬 역할의 권한만 변경할 수 있습니다.’
-CHANGED_BANK_LIMIT: ‘&e&l업그레이드 | &7{0}의 섬의 은행 한도를 성공적으로 업데이트했습니다.’
-CHANGED_BANK_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬의 은행 한도를 성공적으로 업데이트했습니다.’
-CHANGED_BANK_LIMIT_NAME: ‘&e&l업그레이드 | &7{0}의 은행 한도를 성공적으로 업데이트했습니다.’
-CHANGED_BIOME: ‘&e&l섬 | &7바이옴을 성공적으로 {0}로 변경했습니다. 변경 사항을 보려면 서버에 다시 연결해야 할 수 있습니다.’
-CHANGED_BIOME_ALL: ‘&e&l섬 | &7모든 섬의 바이옴을 성공적으로 {0}로 변경했습니다.’
-CHANGED_BIOME_NAME: ‘&e&l섬 | &7{1} 섬의 바이옴을 성공적으로 {0}로 변경했습니다.’
-CHANGED_BIOME_OTHER: ‘&e&l섬 | &7{1}의 섬의 바이옴을 성공적으로 {0}로 변경했습니다.’
-CHANGED_BLOCK_AMOUNT: ‘&e&l블록 | &7{0}에서 블록 수를 성공적으로 {1}로 변경했습니다.’
-CHANGED_BLOCK_LIMIT: ‘&e&l업그레이드 | &7{1}의 섬의 {0} 블록 한도를 성공적으로 업데이트했습니다.’
-CHANGED_BLOCK_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬의 {0} 블록 한도를 성공적으로 업데이트했습니다.’
-CHANGED_BLOCK_LIMIT_NAME: ‘&e&l업그레이드 | &7{1}의 {0} 블록 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_CHEST_SIZE: ‘&e&l상자 | &7{2}의 섬의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.’ 
-CHANGED_CHEST_SIZE_ALL: ‘&e&l상자 | &7모든 섬의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.’ 
-CHANGED_CHEST_SIZE_NAME: ‘&e&l상자 | &7{2}의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.’ 
-CHANGED_COOP_LIMIT: ‘&e&l업그레이드 | &7{0}의 섬의 협력 플레이어 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_COOP_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬의 협력 플레이어 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_COOP_LIMIT_NAME: ‘&e&l업그레이드 | &7{0}의 협력 플레이어 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_CROP_GROWTH: ‘&e&l업그레이드 | &7{0}의 섬의 작물 성장 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_CROP_GROWTH_ALL: ‘&e&l업그레이드 | &7모든 섬의 작물 성장 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_CROP_GROWTH_NAME: ‘&e&l업그레이드 | &7{0}의 작물 성장 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_DISCORD: ‘&e&l섬 | &7섬 디스코드를 성공적으로 {0}로 변경했습니다.’ 
-CHANGED_ENTITY_LIMIT: ‘&e&l업그레이드 | &7{1}의 섬에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_ENTITY_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_ENTITY_LIMIT_NAME: ‘&e&l업그레이드 | &7{1}에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_EFFECT_LEVEL: ‘&e&l업그레이드 | &7{1}의 섬에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_EFFECT_LEVEL_ALL: ‘&e&l업그레이드 | &7모든 섬에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_EFFECT_LEVEL_NAME: ‘&e&l업그레이드 | &7{1}에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.’
-CHANGED_ISLAND_SIZE: ‘&e&l업그레이드 | &7{0}의 섬의 섬 크기를 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_SIZE_ALL: ‘&e&l업그레이드 | &7모든 섬의 섬 크기를 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_SIZE_NAME: ‘&e&l업그레이드 | &7{0}의 섬 크기를 성공적으로 업데이트했습니다.’ 
-CHANGED_ISLAND_SIZE_BUILD_OUTSIDE: ‘&7&o플레이어들은 섬 밖에서 건설할 수 있으므로 섬 크기에 영향을 미치지 않습니다. config에서 해당 기능을 끄면 다시 섬 크기가 영향을 미칩니다.’ 
-CHANGED_LANGUAGE: ‘&e&l언어 | &7언어를 영어로 성공적으로 변경했습니다.’ 
-CHANGED_MOB_DROPS: ‘&e&l업그레이드 | &7{0}의 섬의 몹 드롭 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_MOB_DROPS_ALL: ‘&e&l업그레이드 | &7모든 섬의 몹 드롭 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_MOB_DROPS_NAME: ‘&e&l업그레이드 | &7{0}의 몹 드롭 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_NAME: ‘&e&l섬 | &7섬 이름을 {0}로 변경했습니다.’ 
-CHANGED_NAME_OTHER: ‘&e&l섬 | &7{0} 섬의 이름을 {1}로 변경했습니다.’ 
-CHANGED_NAME_OTHER_NAME: ‘&e&l섬 | &7{0}의 이름을 {1}로 변경했습니다.’ 
-CHANGED_PAYPAL: ‘&e&l섬 | &7섬 페이팔을 {0}로 변경했습니다.’ 
-CHANGED_ROLE_LIMIT: ‘&e&l업그레이드 | &7{1}의 섬에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_ROLE_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_ROLE_LIMIT_NAME: ‘&e&l업그레이드 | &7{1}에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.’ 
-CHANGED_SPAWNER_RATES: ‘&e&l업그레이드 | &7{0}의 섬에서 스폰율 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_SPAWNER_RATES_ALL: ‘&e&l업그레이드 | &7모든 섬에서 스폰율 배율을 성공적으로 업데이트했습니다.’ 
-CHANGED_SPAWNER_RATES_NAME: ‘&e&l업그레이드 | &7{0}에서 스폰율 배율을 성공적으로 업데이트했습니다.’
-CHANGED_TEAM_LIMIT: ‘&e&l업그레이드 | &7{0}의 섬의 팀 제한이 성공적으로 업데이트되었습니다.’ 
-CHANGED_TEAM_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬의 팀 제한이 성공적으로 업데이트되었습니다.’ 
-CHANGED_TEAM_LIMIT_NAME: ‘&e&l업그레이드 | &7{0}의 팀 제한이 성공적으로 업데이트되었습니다.’ 
-CHANGED_TELEPORT_LOCATION: ‘&e&l섬 | &7전송 위치가 성공적으로 업데이트되었습니다.’ 
-CHANGED_WARPS_LIMIT: ‘&e&l업그레이드 | &7{0}의 섬의 워프 제한이 성공적으로 업데이트되었습니다.’ 
-CHANGED_WARPS_LIMIT_ALL: ‘&e&l업그레이드 | &7모든 섬의 워프 제한이 성공적으로 업데이트되었습니다.’ 
-CHANGED_WARPS_LIMIT_NAME: ‘&e&l업그레이드 | &7{0}의 워프 제한이 성공적으로 업데이트되었습니다.’ 
-COMMAND_ARGUMENT_ALL_ISLANDS: ‘*’ 
-COMMAND_ARGUMENT_ALL_PLAYERS: '*’ 
-COMMAND_ARGUMENT_AMOUNT: ‘양’ 
-COMMAND_ARGUMENT_BIOME: ‘생태계’ 
-COMMAND_ARGUMENT_BORDER_COLOR: ‘경계 색상’ 
-COMMAND_ARGUMENT_COMMAND: ‘명령…’ 
-COMMAND_ARGUMENT_DISCORD: ‘디스코드…’ 
-COMMAND_ARGUMENT_EFFECT: ‘포션 효과’ 
-COMMAND_ARGUMENT_EMAIL: ‘이메일’ 
-COMMAND_ARGUMENT_ENTITY: ‘개체’ 
-COMMAND_ARGUMENT_ISLAND_NAME: ‘섬 이름’ 
-COMMAND_ARGUMENT_ISLAND_ROLE: ‘섬 역할’
-COMMAND_ARGUMENT_LEADER: ‘리더’ 
-COMMAND_ARGUMENT_LEVEL: ‘레벨’ 
-COMMAND_ARGUMENT_LIMIT: ‘한도’ 
-COMMAND_ARGUMENT_MATERIAL: ‘재료’ 
-COMMAND_ARGUMENT_MENU: ‘메뉴 이름’ 
-COMMAND_ARGUMENT_MESSAGE: ‘메시지…’ 
-COMMAND_ARGUMENT_MISSION_NAME: ‘미션 이름’ 
-COMMAND_ARGUMENT_MODULE_NAME: ‘모듈 이름’ 
-COMMAND_ARGUMENT_MULTIPLIER: ‘배율’ 
-COMMAND_ARGUMENT_NAME: ‘이름’ 
-COMMAND_ARGUMENT_NEW_LEADER: ‘새 리더’ 
-COMMAND_ARGUMENT_PAGE: ‘페이지’ 
-COMMAND_ARGUMENT_PATH: ‘경로’ 
-COMMAND_ARGUMENT_PERMISSION: ‘권한’ 
-COMMAND_ARGUMENT_PLAYER_NAME: ‘플레이어 이름’ 
-COMMAND_ARGUMENT_PRIVATE: ‘비공개’ 
-COMMAND_ARGUMENT_RATING: ‘등급’ 
-COMMAND_ARGUMENT_ROWS: ‘행’ 
-COMMAND_ARGUMENT_SCHEMATIC_NAME: ‘스케마틱 이름’ 
-COMMAND_ARGUMENT_SETTINGS: ‘설정’ 
-COMMAND_ARGUMENT_SIZE: ‘크기’ 
-COMMAND_ARGUMENT_TIME: ‘시간’ 
-COMMAND_ARGUMENT_TITLE_DURATION: ‘지속 시간’ 
-COMMAND_ARGUMENT_TITLE_FADE_IN: ‘페이드 인’ 
-COMMAND_ARGUMENT_TITLE_FADE_OUT: ‘페이드 아웃’
-OMMAND_ARGUMENT_UPGRADE_NAME: ‘업그레이드 이름’ 
-COMMAND_ARGUMENT_VALUE: ‘값’ 
-COMMAND_ARGUMENT_WARP_NAME: ‘워프 이름’ 
-COMMAND_ARGUMENT_WARP_CATEGORY: ‘워프 카테고리’ 
-COMMAND_ARGUMENT_WORLD: ‘세계’ 
-COMMAND_COOLDOWN_FORMAT: ‘&c&l오류 | &7{0}에서만 명령을 사용할 수 있습니다.’ 
-COMMAND_DESCRIPTION_ACCEPT: ‘플레이어의 초대를 수락합니다.’ 
-COMMAND_DESCRIPTION_ADMIN: ‘관리자 명령을 사용합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD: ‘사용자를 섬에 추가합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_BLOCK_LIMIT: ‘다른 플레이어의 섬의 블록 제한을 늘립니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_BONUS: ‘플레이어에게 보너스를 추가합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_COOP_LIMIT: ‘다른 플레이어의 섬의 협력 플레이어 제한을 늘립니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_CROP_GROWTH: ‘다른 플레이어의 섬의 작물 성장 배율을 늘립니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_EFFECT: ‘다른 플레이어의 섬에 섬 효과를 추가합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_ENTITY_LIMIT: ‘다른 플레이어의 섬의 개체 제한을 늘립니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_GENERATOR: ‘조약돌 생성기에 재료의 백분율을 추가합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_MOB_DROPS: ‘다른 플레이어의 섬의 몹 드롭 배율을 늘립니다.’
-COMMAND_DESCRIPTION_ADMIN_ADD_SIZE: ‘다른 플레이어의 섬 크기를 확장합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_SPAWNER_RATES: ‘다른 플레이어의 섬의 스폰율 배율을 증가시킵니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_TEAM_LIMIT: ‘다른 플레이어의 섬의 구성원 한도를 증가시킵니다.’ 
-COMMAND_DESCRIPTION_ADMIN_ADD_WARPS_LIMIT: ‘섬의 워프 한도를 증가시킵니다.’ 
-COMMAND_DESCRIPTION_ADMIN_BONUS: ‘플레이어에게 보너스를 부여합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_BYPASS: ‘바이패스 모드를 전환합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_CHEST: ‘다른 섬의 섬 상자를 엽니다.’ 
-COMMAND_DESCRIPTION_ADMIN_CLEAR_GENERATOR: ‘특정 섬의 발전기 비율을 지웁니다.’ 
-COMMAND_DESCRIPTION_ADMIN_CLOSE: ‘섬을 공개에서 닫습니다.’ 
-COMMAND_DESCRIPTION_ADMIN_CMD_ALL: ‘섬 구성원 모두에 대해 명령을 실행합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_COUNT: ‘특정 섬에서 블록 수를 확인합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_DATA: ‘플레이어 또는 섬의 지속적인 데이터와 상호 작용합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_DEBUG: ‘디버그 출력을 전환합니다.’
-COMMAND_DESCRIPTION_ADMIN_DEL_WARP: ‘섬의 워프를 삭제합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_DEMOTE: ‘다른 플레이어의 섬에서 멤버를 강등합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_DEPOSIT: ‘다른 플레이어의 섬 은행에 돈을 입금합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_DISBAND: ‘다른 플레이어의 섬을 영구적으로 해체합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_GIVE_DISBANDS: ‘플레이어에게 해체를 줍니다.’ 
-COMMAND_DESCRIPTION_ADMIN_IGNORE: ‘상위 섬에서 섬을 무시합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_JOIN: ‘초대 없이 섬에 참여합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_KICK: ‘플레이어를 그의 섬에서 추방합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_MODULES: ‘플러그인의 모듈을 관리합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_MISSION: ‘플레이어의 미션 상태를 변경합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_MSG: ‘접두사 없이 플레이어에게 메시지를 보냅니다.’ 
-COMMAND_DESCRIPTION_ADMIN_MSG_ALL: ‘접두사 없이 모든 섬 멤버에게 메시지를 보냅니다.’ 
-COMMAND_DESCRIPTION_ADMIN_NAME: ‘섬의 이름을 변경합니다.’
-COMMAND_DESCRIPTION_ADMIN_OPEN: ‘섬을 공개에 엽니다.’ 
-COMMAND_DESCRIPTION_ADMIN_OPEN_MENU: ‘플레이어에게 사용자 정의 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_ADMIN_PROMOTE: ‘다른 플레이어의 섬에서 구성원을 승진시킵니다.’ 
-COMMAND_DESCRIPTION_ADMIN_PURGE: ‘섬을 제거합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_RANKUP: ‘섬의 업그레이드를 랭크업합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_RECALC: ‘섬의 가치를 다시 계산합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_RELOAD: ‘플러그인의 모든 구성 및 작업을 다시 로드합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_REMOVE_BLOCK_LIMIT: ‘섬에서 블록 한도를 제거합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_REMOVE_RATINGS: ‘플레이어가 부여한 모든 등급을 제거합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_RESET_WORLD: ‘섬의 세계를 재설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SCHEMATIC: ‘플러그인에 대한 스키마틱을 만듭니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_BANK_LIMIT: ‘섬에 은행 한도를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_BIOME: ‘섬의 바이옴을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_AMOUNT: ‘특정 위치에서 블록 수를 설정합니다.’
-COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_LIMIT: ‘다른 플레이어의 섬의 블록 제한을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_CHEST_ROW: ‘다른 플레이어의 섬의 상자 열을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_COOP_LIMIT: ‘다른 플레이어의 섬의 협력 플레이어 제한을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_CROP_GROWTH: ‘다른 플레이어의 섬의 작물 성장 배율을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_DISBANDS: ‘플레이어의 섬 해체 수를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_EFFECT: ‘다른 플레이어의 섬의 섬 효과 레벨을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_ENTITY_LIMIT: ‘다른 플레이어의 섬의 개체 제한을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_LEADER: ‘섬을 다른 사람에게 이전합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_MOB_DROPS: ‘다른 플레이어의 섬의 몹 드롭 배율을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_PERMISSION: ‘모든 섬에 대한 권한에 필요한 역할을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_RATE: ‘다른 플레이어의 평가를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_ROLE_LIMIT: ‘다른 플레이어의 섬의 역할 제한을 설정합니다.’
-COMMAND_DESCRIPTION_ADMIN_SET_SETTINGS: ‘특정 섬의 설정을 전환합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_GENERATOR: ‘조약돌 발전기의 재료 비율을 변경합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_SIZE: ‘다른 플레이어의 섬 크기를 변경합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_SPAWN: ‘서버의 스폰 위치를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_SPAWNER_RATES: ‘다른 플레이어의 섬의 스폰율 배율을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_TEAM_LIMIT: ‘다른 플레이어의 섬의 구성원 한도를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_UPGRADE: ‘다른 플레이어의 섬의 업그레이드 레벨을 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SET_WARPS_LIMIT: ‘섬의 워프 한도를 설정합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SETTINGS: ‘플러그인 설정 편집기를 엽니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SHOW: ‘섬에 대한 정보를 가져옵니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SPAWN: ‘스폰 위치로 순간 이동합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SPY: ‘채팅 스파이 모드를 전환합니다’ 
-COMMAND_DESCRIPTION_ADMIN_STATS: ‘플러그인에 대한 통계를 보여줍니다.’
-COMMAND_DESCRIPTION_ADMIN_SYNC_BONUS: ‘섬의 보너스를 생성된 세계와 동기화합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_SYNC_UPGRADES: ‘섬의 업그레이드 값을 동기화합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_TELEPORT: ‘다른 섬으로 전송합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_TITLE: ‘플레이어에게 제목을 보냅니다.’ 
-COMMAND_DESCRIPTION_ADMIN_TITLE_ALL: ‘모든 섬 멤버에게 제목을 보냅니다.’ 
-COMMAND_DESCRIPTION_ADMIN_UNIGNORE: ‘상위 섬에서 섬을 무시하지 않습니다.’ 
-COMMAND_DESCRIPTION_ADMIN_UNLOCK_WORLD: ‘섬에 대한 세계를 잠금 해제합니다.’ 
-COMMAND_DESCRIPTION_ADMIN_WITHDRAW: ‘다른 플레이어의 섬 은행에서 돈을 인출합니다.’ 
-COMMAND_DESCRIPTION_BALANCE: ‘섬 은행 내의 돈의 양을 확인합니다.’ 
-COMMAND_DESCRIPTION_BAN: ‘플레이어를 섬에서 차단합니다.’ 
-COMMAND_DESCRIPTION_BANK: ‘섬의 은행을 엽니다.’ 
-COMMAND_DESCRIPTION_BIOME: ‘섬의 생태계를 변경합니다.’ 
-COMMAND_DESCRIPTION_BORDER: ‘섬의 경계 색상을 변경합니다.’ 
-COMMAND_DESCRIPTION_CHEST: ‘섬의 상자를 엽니다.’ 
-COMMAND_DESCRIPTION_CLOSE: ‘섬을 공개에게 닫습니다.’
-COMMAND_DESCRIPTION_COOP: ‘플레이어를 섬의 협력자로 추가합니다.’ 
-COMMAND_DESCRIPTION_COOPS: ‘협력자 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_COUNTS: ‘섬에서 블록 수를 확인합니다.’ 
-COMMAND_DESCRIPTION_CREATE: ‘새로운 섬을 만듭니다.’ 
-COMMAND_DESCRIPTION_DEL_WARP: ‘섬 워프를 삭제합니다.’ 
-COMMAND_DESCRIPTION_DEMOTE: ‘섬에서 멤버를 강등합니다.’ 
-COMMAND_DESCRIPTION_DEPOSIT: ‘개인 계좌에서 섬 은행으로 돈을 입금합니다.’ 
-COMMAND_DESCRIPTION_DISBAND: ‘섬을 영구적으로 해체합니다.’ 
-COMMAND_DESCRIPTION_EXPEL: ‘방문객을 섬에서 추방합니다.’ 
-COMMAND_DESCRIPTION_FLY: ‘섬 비행을 전환합니다.’ 
-COMMAND_DESCRIPTION_HELP: ‘모든 명령의 목록입니다.’ 
-COMMAND_DESCRIPTION_INVITE: ‘플레이어를 섬에 초대합니다.’ 
-COMMAND_DESCRIPTION_KICK: ‘플레이어를 섬에서 추방합니다.’ 
-COMMAND_DESCRIPTION_LANG: ‘개인 언어를 변경합니다.’ 
-COMMAND_DESCRIPTION_LEAVE: ‘섬을 떠납니다.’ 
-COMMAND_DESCRIPTION_MEMBERS: ‘멤버 메뉴를 엽니다.’
-COMMAND_DESCRIPTION_MISSION: ‘미션을 완료합니다.’ 
-COMMAND_DESCRIPTION_MISSIONS: ‘미션 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_NAME: ‘섬 이름을 변경합니다.’ 
-COMMAND_DESCRIPTION_OPEN: ‘섬을 공개에 엽니다.’ 
-COMMAND_DESCRIPTION_PANEL: ‘섬 패널을 엽니다.’ 
-COMMAND_DESCRIPTION_PARDON: ‘섬에서 차단된 플레이어를 해제합니다.’ 
-COMMAND_DESCRIPTION_PERMISSIONS: ‘섬 역할의 모든 권한을 가져옵니다.’ 
-COMMAND_DESCRIPTION_PROMOTE: ‘섬에서 구성원을 승진시킵니다.’ 
-COMMAND_DESCRIPTION_RANKUP: ‘업그레이드를 레벨업합니다.’ 
-COMMAND_DESCRIPTION_RATE: ‘섬을 평가합니다.’ 
-COMMAND_DESCRIPTION_RATINGS: ‘모든 섬 평가를 보여줍니다.’ 
-COMMAND_DESCRIPTION_SETTINGS: ‘설정 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_RECALC: ‘섬 가치를 다시 계산합니다.’ 
-COMMAND_DESCRIPTION_SET_DISCORD: ‘섬 지급금을 위한 섬의 디스코드를 설정합니다.’
-COMMAND_DESCRIPTION_SET_PAYPAL: ‘섬 지급금을 위한 섬의 페이팔 이메일을 설정합니다.’ 
-COMMAND_DESCRIPTION_SET_ROLE: ‘섬에서 플레이어의 역할을 변경합니다.’ 
-COMMAND_DESCRIPTION_SET_TELEPORT: ‘섬의 순간 이동 위치를 변경합니다.’ 
-COMMAND_DESCRIPTION_SET_WARP: ‘새로운 섬 워프를 만듭니다.’ 
-COMMAND_DESCRIPTION_SHOW: ‘섬에 대한 정보를 가져옵니다.’ 
-COMMAND_DESCRIPTION_TEAM: ‘섬 구성원 상태에 대한 정보를 가져옵니다.’ 
-COMMAND_DESCRIPTION_TEAM_CHAT: ‘팀 채팅 모드를 전환합니다.’ 
-COMMAND_DESCRIPTION_TELEPORT: ‘당신의 섬으로 순간 이동합니다.’ 
-COMMAND_DESCRIPTION_TOGGLE: ‘섬 경계와 쌓인 블록 배치를 전환합니다.’ 
-COMMAND_DESCRIPTION_TOP: ‘상위 섬 패널을 엽니다.’ 
-COMMAND_DESCRIPTION_TRANSFER: ‘섬 리더십을 이전합니다.’ 
-COMMAND_DESCRIPTION_UNCOOP: ‘섬에서 협력 플레이어를 제거합니다.’ 
-COMMAND_DESCRIPTION_UPGRADE: ‘업그레이드 패널을 엽니다.’ 
-COMMAND_DESCRIPTION_VALUE: ‘블록의 가치 값을 가져옵니다.’ 
-COMMAND_DESCRIPTION_VALUES: ‘가치 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_VISIT: ‘섬의 방문자 위치로 순간 이동합니다.’ 
-COMMAND_DESCRIPTION_VISITORS: ‘방문자 메뉴를 엽니다.’
-COMMAND_DESCRIPTION_WARP: ‘섬 워프로 워프합니다.’ 
-COMMAND_DESCRIPTION_WARPS: ‘워프 메뉴를 엽니다.’ 
-COMMAND_DESCRIPTION_WITHDRAW: ‘섬 은행에서 개인 계좌로 돈을 인출합니다.’ 
-COMMAND_USAGE: ‘&c사용법: /{0}’ 
-COOP_ANNOUNCEMENT: ‘&e&l섬 | &7{0}이(가) {1}을(를) 협력 멤버로 추가했습니다.’ 
-COOP_BANNED_PLAYER: ‘&c&l오류 | &7이 플레이어는 섬에서 차단되어 협력할 수 없습니다.’ 
-COOP_LIMIT_EXCEED: ‘&c&l오류 | &7섬이 가질 수 있는 최대 협력 플레이어 수에 도달했습니다.’ 
-CREATE_ISLAND: ‘&e&l섬 | &7{0}에 새로운 섬을 만들었습니다. {1}ms 소요되었습니다.’ 
-CREATE_ISLAND_FAILURE: ‘&c&l오류 | &7섬을 만드는 중 오류가 발생했습니다. 관리자에게 문의하여 문제를 조사하십시오.’ 
-CREATE_WORLD_FAILURE: ‘&c&l오류 | &7세계를 생성하는 중 오류가 발생했습니다. 관리자에게 문의하여 문제를 조사하십시오.’ 
-DEBUG_MODE_DISABLED: ‘&e&l디버그 | &7디버그 모드를 &cOFF&7로 전환했습니다.’ 
-DEBUG_MODE_ENABLED: ‘&e&l디버그 | &7디버그 모드를 &aON&7으로 전환했습니다.’ 
-DEBUG_MODE_FILTER_ADD: ‘&e&l디버그 | &7디버그 필터 {0}을(를) &aON&7으로 전환했습니다.’ 
-DEBUG_MODE_FILTER_CLEAR: ‘&e&l디버그 | &7모든 디버그 필터를 &cOFF&7로 전환했습니다.’ 
-DEBUG_MODE_FILTER_REMOVE: ‘&e&l디버그 | &7디버그 필터 {0}을(를) &cOFF&7로 전환했습니다.’
+ADMIN_ADD_PLAYER: '&e&l섬 | &7{1}의 섬에 성공적으로 플레이어 {0}을 추가했습니다.' 
+ADMIN_ADD_PLAYER_NAME: '&e&l섬 | &7{1} 섬에 성공적으로 플레이어 {0}을 추가했습니다.'
+ADMIN_DEPOSIT_MONEY: '&e&l은행 | &7{1}의 섬 은행에 ${0}을 입금했습니다.'
+ADMIN_DEPOSIT_MONEY_NAME: '&e&l은행 | &7{1} 섬의 은행에 ${0}을 입금했습니다.'
+ADMIN_HELP_FOOTER: '&e&lSuperiorSkyblock &7Ome_R에 의해 개발되었음 [한글화 - Ha2ram17]'
+ADMIN_HELP_HEADER: '&e&lSuperiorSkyblock &7관리자 명령어 목록 [{0}/{1}]:'
+ADMIN_HELP_LINE: '&e/{0} &f- &7{1}'
+ADMIN_HELP_NEXT_PAGE: '&e&lSuperiorSkyblock &7다음 페이지를 위해 /is admin {0}을 사용하세요.'
+ALREADY_IN_ISLAND: '&c&l오류 | &7이미 섬에 있습니다.'
+ALREADY_IN_ISLAND_OTHER: '&c&l오류 | &7이 플레이어는 이미 당신의 섬의 구성원입니다.'
+BAN_ANNOUNCEMENT: '&e&l섬 | &7{0}은 {1}에 의해 섬에서 차단되었습니다.' 
+BAN_PLAYERS_WITH_LOWER_ROLE: '&c&l오류 | &7당신은 당신보다 낮은 섬 역할을 가진 플레이어만 차단할 수 있습니다.'
+BANK_DEPOSIT_CUSTOM: '&e&l은행 | &7입금하고 싶은 금액을 입력하세요:'
+BANK_DEPOSIT_COMPLETED: '입금 완료' 
+BANK_LIMIT_EXCEED: '&c&l오류 | &7은행 한도를 초과했습니다.'
+BANK_WITHDRAW_CUSTOM: '&e&l은행 | &7출금하고 싶은 금액을 입력하세요:' 
+BANK_WITHDRAW_COMPLETED: '출금 완료'
+BANNED_FROM_ISLAND: '&c&l오류 | &7이 섬에서 차단되었습니다.'
+BLOCK_COUNT_CHECK: '&e&l섬 | &7이 섬에는 x{0} {1}이 있습니다.'
+BLOCK_COUNTS_CHECK: |
+  &e&l섬 | &7이 섬에는 다음과 같은 블록이 있습니다:
+  &7{0}
+BLOCK_COUNTS_CHECK_EMPTY: '&e&l섬 | &7이 섬에는 추적된 블록이 없습니다.'
+BLOCK_COUNTS_CHECK_MATERIAL: 'x{0} {1}'
+BLOCK_LEVEL: '&e&l레벨 | &7블록 {0}의 레벨은 {1}입니다.'
+BLOCK_LEVEL_WORTHLESS: '&e&l레벨 | &7블록 {0}은 가치가 없습니다.'
+BLOCK_VALUE: '&e&l가치 | &7블록 {0}의 가치는 {1}입니다.'
+BLOCK_VALUE_WORTHLESS: '&e&l가치 | &7블록 {0}은 가치가 없습니다.'
+BONUS_SET_SUCCESS: '&e&l섬 | &7섬 보너스를 성공적으로 {0}로 업데이트했습니다.'
+BONUS_SYNC_ALL: '&e&l섬 | &7모든 섬의 섬 보너스를 성공적으로 동기화했습니다.'
+BONUS_SYNC_NAME: '&e&l섬 | &7{0}의 섬 보너스를 성공적으로 동기화했습니다.' 
+BONUS_SYNC: '&e&l섬 | &7{0}의 섬의 섬 보너스를 성공적으로 동기화했습니다.' 
+BORDER_PLAYER_COLOR_NAME_BLUE: '파란색'
+BORDER_PLAYER_COLOR_NAME_RED: '빨간색'
+BORDER_PLAYER_COLOR_NAME_GREEN: '초록색'
+BORDER_PLAYER_COLOR_UPDATED: '&e&l경계 | &7개인 경계 색상을 성공적으로 {0}로 변경했습니다.'
+BUILD_OUTSIDE_ISLAND: '&c&l오류 | &7보호 범위 밖에서 건설할 수 없습니다.'
+CANNOT_SET_ROLE: '&c&l오류 | &7플레이어의 역할을 {0}로 설정할 수 없습니다.'
+CHANGE_PERMISSION_FOR_HIGHER_ROLE: '&c&l오류 | &7당신은 당신보다 낮은 섬 역할의 권한만 변경할 수 있습니다.'
+CHANGED_BANK_LIMIT: '&e&l업그레이드 | &7{0}의 섬의 은행 한도를 성공적으로 업데이트했습니다.'
+CHANGED_BANK_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬의 은행 한도를 성공적으로 업데이트했습니다.'
+CHANGED_BANK_LIMIT_NAME: '&e&l업그레이드 | &7{0}의 은행 한도를 성공적으로 업데이트했습니다.'
+CHANGED_BIOME: '&e&l섬 | &7바이옴을 성공적으로 {0}로 변경했습니다. 변경 사항을 보려면 서버에 다시 연결해야 할 수 있습니다.'
+CHANGED_BIOME_ALL: '&e&l섬 | &7모든 섬의 바이옴을 성공적으로 {0}로 변경했습니다.'
+CHANGED_BIOME_NAME: '&e&l섬 | &7{1} 섬의 바이옴을 성공적으로 {0}로 변경했습니다.'
+CHANGED_BIOME_OTHER: '&e&l섬 | &7{1}의 섬의 바이옴을 성공적으로 {0}로 변경했습니다.'
+CHANGED_BLOCK_AMOUNT: '&e&l블록 | &7{0}에서 블록 수를 성공적으로 {1}로 변경했습니다.'
+CHANGED_BLOCK_LIMIT: '&e&l업그레이드 | &7{1}의 섬의 {0} 블록 한도를 성공적으로 업데이트했습니다.'
+CHANGED_BLOCK_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬의 {0} 블록 한도를 성공적으로 업데이트했습니다.'
+CHANGED_BLOCK_LIMIT_NAME: '&e&l업그레이드 | &7{1}의 {0} 블록 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_CHEST_SIZE: '&e&l상자 | &7{2}의 섬의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.' 
+CHANGED_CHEST_SIZE_ALL: '&e&l상자 | &7모든 섬의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.' 
+CHANGED_CHEST_SIZE_NAME: '&e&l상자 | &7{2}의 페이지 #{0}의 행을 성공적으로 {1}로 업데이트했습니다.' 
+CHANGED_COOP_LIMIT: '&e&l업그레이드 | &7{0}의 섬의 협력 플레이어 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_COOP_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬의 협력 플레이어 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_COOP_LIMIT_NAME: '&e&l업그레이드 | &7{0}의 협력 플레이어 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_CROP_GROWTH: '&e&l업그레이드 | &7{0}의 섬의 작물 성장 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_CROP_GROWTH_ALL: '&e&l업그레이드 | &7모든 섬의 작물 성장 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_CROP_GROWTH_NAME: '&e&l업그레이드 | &7{0}의 작물 성장 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_DISCORD: '&e&l섬 | &7섬 디스코드를 성공적으로 {0}로 변경했습니다.' 
+CHANGED_ENTITY_LIMIT: '&e&l업그레이드 | &7{1}의 섬에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_ENTITY_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_ENTITY_LIMIT_NAME: '&e&l업그레이드 | &7{1}에서 {0} 개체의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_EFFECT_LEVEL: '&e&l업그레이드 | &7{1}의 섬에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_EFFECT_LEVEL_ALL: '&e&l업그레이드 | &7모든 섬에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_EFFECT_LEVEL_NAME: '&e&l업그레이드 | &7{1}에서 {0}섬 효과 레벨을 성공적으로 업데이트했습니다.'
+CHANGED_ISLAND_SIZE: '&e&l업그레이드 | &7{0}의 섬의 섬 크기를 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_SIZE_ALL: '&e&l업그레이드 | &7모든 섬의 섬 크기를 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_SIZE_NAME: '&e&l업그레이드 | &7{0}의 섬 크기를 성공적으로 업데이트했습니다.' 
+CHANGED_ISLAND_SIZE_BUILD_OUTSIDE: '&7&o플레이어들은 섬 밖에서 건설할 수 있으므로 섬 크기에 영향을 미치지 않습니다. config에서 해당 기능을 끄면 다시 섬 크기가 영향을 미칩니다.' 
+CHANGED_LANGUAGE: '&e&l언어 | &7언어를 한국어로 성공적으로 변경했습니다.' 
+CHANGED_MOB_DROPS: '&e&l업그레이드 | &7{0}의 섬의 몹 드롭 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_MOB_DROPS_ALL: '&e&l업그레이드 | &7모든 섬의 몹 드롭 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_MOB_DROPS_NAME: '&e&l업그레이드 | &7{0}의 몹 드롭 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_NAME: '&e&l섬 | &7섬 이름을 {0}로 변경했습니다.' 
+CHANGED_NAME_OTHER: '&e&l섬 | &7{0} 섬의 이름을 {1}로 변경했습니다.' 
+CHANGED_NAME_OTHER_NAME: '&e&l섬 | &7{0}의 이름을 {1}로 변경했습니다.' 
+CHANGED_PAYPAL: '&e&l섬 | &7섬 페이팔을 {0}로 변경했습니다.' 
+CHANGED_ROLE_LIMIT: '&e&l업그레이드 | &7{1}의 섬에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_ROLE_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_ROLE_LIMIT_NAME: '&e&l업그레이드 | &7{1}에서 {0} 역할의 한도를 성공적으로 업데이트했습니다.' 
+CHANGED_SPAWNER_RATES: '&e&l업그레이드 | &7{0}의 섬에서 스폰율 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_SPAWNER_RATES_ALL: '&e&l업그레이드 | &7모든 섬에서 스폰율 배율을 성공적으로 업데이트했습니다.' 
+CHANGED_SPAWNER_RATES_NAME: '&e&l업그레이드 | &7{0}에서 스폰율 배율을 성공적으로 업데이트했습니다.'
+CHANGED_TEAM_LIMIT: '&e&l업그레이드 | &7{0}의 섬의 팀 제한이 성공적으로 업데이트되었습니다.' 
+CHANGED_TEAM_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬의 팀 제한이 성공적으로 업데이트되었습니다.' 
+CHANGED_TEAM_LIMIT_NAME: '&e&l업그레이드 | &7{0}의 팀 제한이 성공적으로 업데이트되었습니다.' 
+CHANGED_TELEPORT_LOCATION: '&e&l섬 | &7전송 위치가 성공적으로 업데이트되었습니다.' 
+CHANGED_WARPS_LIMIT: '&e&l업그레이드 | &7{0}의 섬의 워프 제한이 성공적으로 업데이트되었습니다.' 
+CHANGED_WARPS_LIMIT_ALL: '&e&l업그레이드 | &7모든 섬의 워프 제한이 성공적으로 업데이트되었습니다.' 
+CHANGED_WARPS_LIMIT_NAME: '&e&l업그레이드 | &7{0}의 워프 제한이 성공적으로 업데이트되었습니다.' 
+COMMAND_ARGUMENT_ALL_ISLANDS: '*' 
+COMMAND_ARGUMENT_ALL_PLAYERS: '*' 
+COMMAND_ARGUMENT_AMOUNT: '양' 
+COMMAND_ARGUMENT_BIOME: '생태계' 
+COMMAND_ARGUMENT_BORDER_COLOR: '경계 색상' 
+COMMAND_ARGUMENT_COMMAND: '명령…' 
+COMMAND_ARGUMENT_DISCORD: '디스코드…' 
+COMMAND_ARGUMENT_EFFECT: '포션 효과' 
+COMMAND_ARGUMENT_EMAIL: '이메일' 
+COMMAND_ARGUMENT_ENTITY: '개체' 
+COMMAND_ARGUMENT_ISLAND_NAME: '섬 이름' 
+COMMAND_ARGUMENT_ISLAND_ROLE: '섬 역할'
+COMMAND_ARGUMENT_LEADER: '리더' 
+COMMAND_ARGUMENT_LEVEL: '레벨' 
+COMMAND_ARGUMENT_LIMIT: '한도' 
+COMMAND_ARGUMENT_MATERIAL: '재료' 
+COMMAND_ARGUMENT_MENU: '메뉴 이름' 
+COMMAND_ARGUMENT_MESSAGE: '메시지…' 
+COMMAND_ARGUMENT_MISSION_NAME: '미션 이름' 
+COMMAND_ARGUMENT_MODULE_NAME: '모듈 이름' 
+COMMAND_ARGUMENT_MULTIPLIER: '배율' 
+COMMAND_ARGUMENT_NAME: '이름' 
+COMMAND_ARGUMENT_NEW_LEADER: '새 리더' 
+COMMAND_ARGUMENT_PAGE: '페이지' 
+COMMAND_ARGUMENT_PATH: '경로' 
+COMMAND_ARGUMENT_PERMISSION: '권한' 
+COMMAND_ARGUMENT_PLAYER_NAME: '플레이어 이름' 
+COMMAND_ARGUMENT_PRIVATE: '비공개' 
+COMMAND_ARGUMENT_RATING: '등급' 
+COMMAND_ARGUMENT_ROWS: '행' 
+COMMAND_ARGUMENT_SCHEMATIC_NAME: '스케마틱 이름' 
+COMMAND_ARGUMENT_SETTINGS: '설정' 
+COMMAND_ARGUMENT_SIZE: '크기' 
+COMMAND_ARGUMENT_TIME: '시간' 
+COMMAND_ARGUMENT_TITLE_DURATION: '지속 시간' 
+COMMAND_ARGUMENT_TITLE_FADE_IN: '페이드 인' 
+COMMAND_ARGUMENT_TITLE_FADE_OUT: '페이드 아웃'
+OMMAND_ARGUMENT_UPGRADE_NAME: '업그레이드 이름' 
+COMMAND_ARGUMENT_VALUE: '값' 
+COMMAND_ARGUMENT_WARP_NAME: '워프 이름' 
+COMMAND_ARGUMENT_WARP_CATEGORY: '워프 카테고리' 
+COMMAND_ARGUMENT_WORLD: '세계' 
+COMMAND_COOLDOWN_FORMAT: '&c&l오류 | &7{0}에서만 명령을 사용할 수 있습니다.' 
+COMMAND_DESCRIPTION_ACCEPT: '플레이어의 초대를 수락합니다.' 
+COMMAND_DESCRIPTION_ADMIN: '관리자 명령을 사용합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD: '사용자를 섬에 추가합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_BLOCK_LIMIT: '다른 플레이어의 섬의 블록 제한을 늘립니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_BONUS: '플레이어에게 보너스를 추가합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_COOP_LIMIT: '다른 플레이어의 섬의 협력 플레이어 제한을 늘립니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_CROP_GROWTH: '다른 플레이어의 섬의 작물 성장 배율을 늘립니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_EFFECT: '다른 플레이어의 섬에 섬 효과를 추가합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_ENTITY_LIMIT: '다른 플레이어의 섬의 개체 제한을 늘립니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_GENERATOR: '조약돌 생성기에 재료의 백분율을 추가합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_MOB_DROPS: '다른 플레이어의 섬의 몹 드롭 배율을 늘립니다.'
+COMMAND_DESCRIPTION_ADMIN_ADD_SIZE: '다른 플레이어의 섬 크기를 확장합니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_SPAWNER_RATES: '다른 플레이어의 섬의 스폰율 배율을 증가시킵니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_TEAM_LIMIT: '다른 플레이어의 섬의 구성원 한도를 증가시킵니다.' 
+COMMAND_DESCRIPTION_ADMIN_ADD_WARPS_LIMIT: '섬의 워프 한도를 증가시킵니다.' 
+COMMAND_DESCRIPTION_ADMIN_BONUS: '플레이어에게 보너스를 부여합니다.' 
+COMMAND_DESCRIPTION_ADMIN_BYPASS: '바이패스 모드를 전환합니다.' 
+COMMAND_DESCRIPTION_ADMIN_CHEST: '다른 섬의 섬 상자를 엽니다.' 
+COMMAND_DESCRIPTION_ADMIN_CLEAR_GENERATOR: '특정 섬의 발전기 비율을 지웁니다.' 
+COMMAND_DESCRIPTION_ADMIN_CLOSE: '섬을 공개에서 닫습니다.' 
+COMMAND_DESCRIPTION_ADMIN_CMD_ALL: '섬 구성원 모두에 대해 명령을 실행합니다.' 
+COMMAND_DESCRIPTION_ADMIN_COUNT: '특정 섬에서 블록 수를 확인합니다.' 
+COMMAND_DESCRIPTION_ADMIN_DATA: '플레이어 또는 섬의 지속적인 데이터와 상호 작용합니다.' 
+COMMAND_DESCRIPTION_ADMIN_DEBUG: '디버그 출력을 전환합니다.'
+COMMAND_DESCRIPTION_ADMIN_DEL_WARP: '섬의 워프를 삭제합니다.' 
+COMMAND_DESCRIPTION_ADMIN_DEMOTE: '다른 플레이어의 섬에서 멤버를 강등합니다.' 
+COMMAND_DESCRIPTION_ADMIN_DEPOSIT: '다른 플레이어의 섬 은행에 돈을 입금합니다.' 
+COMMAND_DESCRIPTION_ADMIN_DISBAND: '다른 플레이어의 섬을 영구적으로 해체합니다.' 
+COMMAND_DESCRIPTION_ADMIN_GIVE_DISBANDS: '플레이어에게 해체를 줍니다.' 
+COMMAND_DESCRIPTION_ADMIN_IGNORE: '상위 섬에서 섬을 무시합니다.' 
+COMMAND_DESCRIPTION_ADMIN_JOIN: '초대 없이 섬에 참여합니다.' 
+COMMAND_DESCRIPTION_ADMIN_KICK: '플레이어를 그의 섬에서 추방합니다.' 
+COMMAND_DESCRIPTION_ADMIN_MODULES: '플러그인의 모듈을 관리합니다.' 
+COMMAND_DESCRIPTION_ADMIN_MISSION: '플레이어의 미션 상태를 변경합니다.' 
+COMMAND_DESCRIPTION_ADMIN_MSG: '접두사 없이 플레이어에게 메시지를 보냅니다.' 
+COMMAND_DESCRIPTION_ADMIN_MSG_ALL: '접두사 없이 모든 섬 멤버에게 메시지를 보냅니다.' 
+COMMAND_DESCRIPTION_ADMIN_NAME: '섬의 이름을 변경합니다.'
+COMMAND_DESCRIPTION_ADMIN_OPEN: '섬을 공개에 엽니다.' 
+COMMAND_DESCRIPTION_ADMIN_OPEN_MENU: '플레이어에게 사용자 정의 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_ADMIN_PROMOTE: '다른 플레이어의 섬에서 구성원을 승진시킵니다.' 
+COMMAND_DESCRIPTION_ADMIN_PURGE: '섬을 제거합니다.' 
+COMMAND_DESCRIPTION_ADMIN_RANKUP: '섬의 업그레이드를 랭크업합니다.' 
+COMMAND_DESCRIPTION_ADMIN_RECALC: '섬의 가치를 다시 계산합니다.' 
+COMMAND_DESCRIPTION_ADMIN_RELOAD: '플러그인의 모든 구성 및 작업을 다시 로드합니다.' 
+COMMAND_DESCRIPTION_ADMIN_REMOVE_BLOCK_LIMIT: '섬에서 블록 한도를 제거합니다.' 
+COMMAND_DESCRIPTION_ADMIN_REMOVE_RATINGS: '플레이어가 부여한 모든 등급을 제거합니다.' 
+COMMAND_DESCRIPTION_ADMIN_RESET_WORLD: '섬의 세계를 재설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SCHEMATIC: '플러그인에 대한 스키마틱을 만듭니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_BANK_LIMIT: '섬에 은행 한도를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_BIOME: '섬의 바이옴을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_AMOUNT: '특정 위치에서 블록 수를 설정합니다.'
+COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_LIMIT: '다른 플레이어의 섬의 블록 제한을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_CHEST_ROW: '다른 플레이어의 섬의 상자 열을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_COOP_LIMIT: '다른 플레이어의 섬의 협력 플레이어 제한을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_CROP_GROWTH: '다른 플레이어의 섬의 작물 성장 배율을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_DISBANDS: '플레이어의 섬 해체 수를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_EFFECT: '다른 플레이어의 섬의 섬 효과 레벨을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_ENTITY_LIMIT: '다른 플레이어의 섬의 개체 제한을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_LEADER: '섬을 다른 사람에게 이전합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_MOB_DROPS: '다른 플레이어의 섬의 몹 드롭 배율을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_PERMISSION: '모든 섬에 대한 권한에 필요한 역할을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_RATE: '다른 플레이어의 평가를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_ROLE_LIMIT: '다른 플레이어의 섬의 역할 제한을 설정합니다.'
+COMMAND_DESCRIPTION_ADMIN_SET_SETTINGS: '특정 섬의 설정을 전환합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_GENERATOR: '조약돌 발전기의 재료 비율을 변경합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_SIZE: '다른 플레이어의 섬 크기를 변경합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_SPAWN: '서버의 스폰 위치를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_SPAWNER_RATES: '다른 플레이어의 섬의 스폰율 배율을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_TEAM_LIMIT: '다른 플레이어의 섬의 구성원 한도를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_UPGRADE: '다른 플레이어의 섬의 업그레이드 레벨을 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SET_WARPS_LIMIT: '섬의 워프 한도를 설정합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SETTINGS: '플러그인 설정 편집기를 엽니다.' 
+COMMAND_DESCRIPTION_ADMIN_SHOW: '섬에 대한 정보를 가져옵니다.' 
+COMMAND_DESCRIPTION_ADMIN_SPAWN: '스폰 위치로 순간 이동합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SPY: '채팅 스파이 모드를 전환합니다' 
+COMMAND_DESCRIPTION_ADMIN_STATS: '플러그인에 대한 통계를 보여줍니다.'
+COMMAND_DESCRIPTION_ADMIN_SYNC_BONUS: '섬의 보너스를 생성된 세계와 동기화합니다.' 
+COMMAND_DESCRIPTION_ADMIN_SYNC_UPGRADES: '섬의 업그레이드 값을 동기화합니다.' 
+COMMAND_DESCRIPTION_ADMIN_TELEPORT: '다른 섬으로 전송합니다.' 
+COMMAND_DESCRIPTION_ADMIN_TITLE: '플레이어에게 제목을 보냅니다.' 
+COMMAND_DESCRIPTION_ADMIN_TITLE_ALL: '모든 섬 멤버에게 제목을 보냅니다.' 
+COMMAND_DESCRIPTION_ADMIN_UNIGNORE: '상위 섬에서 섬을 무시하지 않습니다.' 
+COMMAND_DESCRIPTION_ADMIN_UNLOCK_WORLD: '섬에 대한 세계를 잠금 해제합니다.' 
+COMMAND_DESCRIPTION_ADMIN_WITHDRAW: '다른 플레이어의 섬 은행에서 돈을 인출합니다.' 
+COMMAND_DESCRIPTION_BALANCE: '섬 은행 내의 돈의 양을 확인합니다.' 
+COMMAND_DESCRIPTION_BAN: '플레이어를 섬에서 차단합니다.' 
+COMMAND_DESCRIPTION_BANK: '섬의 은행을 엽니다.' 
+COMMAND_DESCRIPTION_BIOME: '섬의 생태계를 변경합니다.' 
+COMMAND_DESCRIPTION_BORDER: '섬의 경계 색상을 변경합니다.' 
+COMMAND_DESCRIPTION_CHEST: '섬의 상자를 엽니다.' 
+COMMAND_DESCRIPTION_CLOSE: '섬을 공개에게 닫습니다.'
+COMMAND_DESCRIPTION_COOP: '플레이어를 섬의 협력자로 추가합니다.' 
+COMMAND_DESCRIPTION_COOPS: '협력자 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_COUNTS: '섬에서 블록 수를 확인합니다.' 
+COMMAND_DESCRIPTION_CREATE: '새로운 섬을 만듭니다.' 
+COMMAND_DESCRIPTION_DEL_WARP: '섬 워프를 삭제합니다.' 
+COMMAND_DESCRIPTION_DEMOTE: '섬에서 멤버를 강등합니다.' 
+COMMAND_DESCRIPTION_DEPOSIT: '개인 계좌에서 섬 은행으로 돈을 입금합니다.' 
+COMMAND_DESCRIPTION_DISBAND: '섬을 영구적으로 해체합니다.' 
+COMMAND_DESCRIPTION_EXPEL: '방문객을 섬에서 추방합니다.' 
+COMMAND_DESCRIPTION_FLY: '섬 비행을 전환합니다.' 
+COMMAND_DESCRIPTION_HELP: '모든 명령의 목록입니다.' 
+COMMAND_DESCRIPTION_INVITE: '플레이어를 섬에 초대합니다.' 
+COMMAND_DESCRIPTION_KICK: '플레이어를 섬에서 추방합니다.' 
+COMMAND_DESCRIPTION_LANG: '개인 언어를 변경합니다.' 
+COMMAND_DESCRIPTION_LEAVE: '섬을 떠납니다.' 
+COMMAND_DESCRIPTION_MEMBERS: '멤버 메뉴를 엽니다.'
+COMMAND_DESCRIPTION_MISSION: '미션을 완료합니다.' 
+COMMAND_DESCRIPTION_MISSIONS: '미션 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_NAME: '섬 이름을 변경합니다.' 
+COMMAND_DESCRIPTION_OPEN: '섬을 공개에 엽니다.' 
+COMMAND_DESCRIPTION_PANEL: '섬 패널을 엽니다.' 
+COMMAND_DESCRIPTION_PARDON: '섬에서 차단된 플레이어를 해제합니다.' 
+COMMAND_DESCRIPTION_PERMISSIONS: '섬 역할의 모든 권한을 가져옵니다.' 
+COMMAND_DESCRIPTION_PROMOTE: '섬에서 구성원을 승진시킵니다.' 
+COMMAND_DESCRIPTION_RANKUP: '업그레이드를 레벨업합니다.' 
+COMMAND_DESCRIPTION_RATE: '섬을 평가합니다.' 
+COMMAND_DESCRIPTION_RATINGS: '모든 섬 평가를 보여줍니다.' 
+COMMAND_DESCRIPTION_SETTINGS: '설정 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_RECALC: '섬 가치를 다시 계산합니다.' 
+COMMAND_DESCRIPTION_SET_DISCORD: '섬 지급금을 위한 섬의 디스코드를 설정합니다.'
+COMMAND_DESCRIPTION_SET_PAYPAL: '섬 지급금을 위한 섬의 페이팔 이메일을 설정합니다.' 
+COMMAND_DESCRIPTION_SET_ROLE: '섬에서 플레이어의 역할을 변경합니다.' 
+COMMAND_DESCRIPTION_SET_TELEPORT: '섬의 순간 이동 위치를 변경합니다.' 
+COMMAND_DESCRIPTION_SET_WARP: '새로운 섬 워프를 만듭니다.' 
+COMMAND_DESCRIPTION_SHOW: '섬에 대한 정보를 가져옵니다.' 
+COMMAND_DESCRIPTION_TEAM: '섬 구성원 상태에 대한 정보를 가져옵니다.' 
+COMMAND_DESCRIPTION_TEAM_CHAT: '팀 채팅 모드를 전환합니다.' 
+COMMAND_DESCRIPTION_TELEPORT: '당신의 섬으로 순간 이동합니다.' 
+COMMAND_DESCRIPTION_TOGGLE: '섬 경계와 쌓인 블록 배치를 전환합니다.' 
+COMMAND_DESCRIPTION_TOP: '상위 섬 패널을 엽니다.' 
+COMMAND_DESCRIPTION_TRANSFER: '섬 리더십을 이전합니다.' 
+COMMAND_DESCRIPTION_UNCOOP: '섬에서 협력 플레이어를 제거합니다.' 
+COMMAND_DESCRIPTION_UPGRADE: '업그레이드 패널을 엽니다.' 
+COMMAND_DESCRIPTION_VALUE: '블록의 가치 값을 가져옵니다.' 
+COMMAND_DESCRIPTION_VALUES: '가치 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_VISIT: '섬의 방문자 위치로 순간 이동합니다.' 
+COMMAND_DESCRIPTION_VISITORS: '방문자 메뉴를 엽니다.'
+COMMAND_DESCRIPTION_WARP: '섬 워프로 워프합니다.' 
+COMMAND_DESCRIPTION_WARPS: '워프 메뉴를 엽니다.' 
+COMMAND_DESCRIPTION_WITHDRAW: '섬 은행에서 개인 계좌로 돈을 인출합니다.' 
+COMMAND_USAGE: '&c사용법: /{0}' 
+COOP_ANNOUNCEMENT: '&e&l섬 | &7{0}이(가) {1}을(를) 협력 멤버로 추가했습니다.' 
+COOP_BANNED_PLAYER: '&c&l오류 | &7이 플레이어는 섬에서 차단되어 협력할 수 없습니다.' 
+COOP_LIMIT_EXCEED: '&c&l오류 | &7섬이 가질 수 있는 최대 협력 플레이어 수에 도달했습니다.' 
+CREATE_ISLAND: '&e&l섬 | &7{0}에 새로운 섬을 만들었습니다. {1}ms 소요되었습니다.' 
+CREATE_ISLAND_FAILURE: '&c&l오류 | &7섬을 만드는 중 오류가 발생했습니다. 관리자에게 문의하여 문제를 조사하십시오.' 
+CREATE_WORLD_FAILURE: '&c&l오류 | &7세계를 생성하는 중 오류가 발생했습니다. 관리자에게 문의하여 문제를 조사하십시오.' 
+DEBUG_MODE_DISABLED: '&e&l디버그 | &7디버그 모드를 &cOFF&7로 전환했습니다.' 
+DEBUG_MODE_ENABLED: '&e&l디버그 | &7디버그 모드를 &aON&7으로 전환했습니다.' 
+DEBUG_MODE_FILTER_ADD: '&e&l디버그 | &7디버그 필터 {0}을(를) &aON&7으로 전환했습니다.' 
+DEBUG_MODE_FILTER_CLEAR: '&e&l디버그 | &7모든 디버그 필터를 &cOFF&7로 전환했습니다.' 
+DEBUG_MODE_FILTER_REMOVE: '&e&l디버그 | &7디버그 필터 {0}을(를) &cOFF&7로 전환했습니다.'
 DELETE_WARP: '&e&l섬 | &7{0} 와프를 삭제했습니다.'
 DELETE_WARP_SIGN_BROKE: '&7&o해당 와프에 대한 표지판이 파괴되었습니다...'
 DEMOTE_LEADER: '&c&l오류 | &7섬의 리더를 강등할 수 없습니다.'
@@ -305,392 +310,437 @@ DISBAND_ANNOUNCEMENT: '&e&l섬 | &7{0} 님이 섬을 해체했습니다.'
 DISBAND_GIVE: '&e&l섬 | &7{0} 개의 해체권한을 받았습니다.'
 DISBAND_GIVE_ALL: '&e&l섬 | &7모든 플레이어에게 {0} 개의 해체권한을 지급했습니다.'
 DISBAND_GIVE_OTHER: '&e&l섬 | &7{1} 님에게 {0} 개의 해체권한을 지급했습니다.'
-DISBAND_ISLAND_BALANCE_REFUND: ‘&7&o당신의 섬이 해체되었고 섬 은행에서 ${0} 달러가 당신의 계좌로 환불되었습니다.’ 
-DISBAND_SET: ‘&e&l섬 | &7당신의 해체 횟수가 {0}으로 설정되었습니다.’ 
-DISBAND_SET_ALL: ‘&e&l섬 | &7당신은 모든 플레이어의 해체 횟수를 {0}으로 설정했습니다.’ 
-DISBAND_SET_OTHER: ‘&e&l섬 | &7당신은 {0}의 해체 횟수를 {1}으로 설정했습니다.’ 
-DISBANDED_ISLAND: ‘&e&l섬 | &7당신은 당신의 섬을 해체했습니다.’ 
-DISBANDED_ISLAND_OTHER: ‘&e&l섬 | &7당신은 {0}의 섬을 해체했습니다.’ 
-DISBANDED_ISLAND_OTHER_NAME: ‘&e&l섬 | &7당신은 {0} 섬을 해체했습니다.’ 
-ENTER_PVP_ISLAND: ‘&7&o당신은 PVP가 활성화된 섬으로 순간이동되었습니다. 다음 10초 동안 PVP에 면역됩니다…’ 
-EXPELLED_PLAYER: ‘&e&l섬 | &7{0}이 섬에서 추방되었습니다.’ 
-FORMAT_QUAD: ‘Q’ 
-FORMAT_TRILLION: ‘T’ 
-FORMAT_BILLION: ‘B’
+DISBAND_ISLAND_BALANCE_REFUND: '&7&o당신의 섬이 해체되었고 섬 은행에서 ${0} 달러가 당신의 계좌로 환불되었습니다.' 
+DISBAND_SET: '&e&l섬 | &7당신의 해체 횟수가 {0}으로 설정되었습니다.' 
+DISBAND_SET_ALL: '&e&l섬 | &7당신은 모든 플레이어의 해체 횟수를 {0}으로 설정했습니다.' 
+DISBAND_SET_OTHER: '&e&l섬 | &7당신은 {0}의 해체 횟수를 {1}으로 설정했습니다.' 
+DISBANDED_ISLAND: '&e&l섬 | &7당신은 당신의 섬을 해체했습니다.' 
+DISBANDED_ISLAND_OTHER: '&e&l섬 | &7당신은 {0}의 섬을 해체했습니다.' 
+DISBANDED_ISLAND_OTHER_NAME: '&e&l섬 | &7당신은 {0} 섬을 해체했습니다.' 
+ENTER_PVP_ISLAND: '&7&o당신은 PVP가 활성화된 섬으로 순간이동되었습니다. 다음 10초 동안 PVP에 면역됩니다…' 
+EXPELLED_PLAYER: '&e&l섬 | &7{0}이 섬에서 추방되었습니다.' 
+FORMAT_QUAD: 'Q' 
+FORMAT_TRILLION: 'T' 
+FORMAT_BILLION: 'B'
 FORMAT_MILLION: 'M'
 FORMAT_THOUSANDS: 'K'
-FORMAT_SECONDS_NAME: ‘초’ 
-FORMAT_SECOND_NAME: ‘초’ 
-FORMAT_MINUTES_NAME: ‘분’ 
-FORMAT_MINUTE_NAME: ‘분’ 
-FORMAT_HOURS_NAME: ‘시간’ 
-FORMAT_HOUR_NAME: ‘시간’ 
-FORMAT_DAYS_NAME: ‘일’ 
-FORMAT_DAY_NAME: ‘일’ 
-GENERATOR_CLEARED: ‘&e&l섬 | &7{0}의 섬의 발전기 수량이 성공적으로 초기화되었습니다.’ 
-GENERATOR_CLEARED_NAME: ‘&e&l섬 | &7{0}의 섬의 발전기 수량이 성공적으로 초기화되었습니다.’ 
-GENERATOR_CLEARED_ALL: ‘&e&l섬 | &7모든 섬의 발전기 수량이 성공적으로 초기화되었습니다.’ 
-GENERATOR_UPDATED: ‘&e&l섬 | &7{1}의 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.’ 
-GENERATOR_UPDATED_NAME: ‘&e&l섬 | &7{1}의 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.’ 
-GENERATOR_UPDATED_ALL: ‘&e&l섬 | &7모든 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.’
-GENERATOR_UPDATED: ‘&e&lIsland | &7{1}의 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.’ 
-GENERATOR_UPDATED_NAME: ‘&e&lIsland | &7{1}의 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.’ 
-GENERATOR_UPDATED_ALL: ‘&e&lIsland | &7모든 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.’ 
-GLOBAL_COMMAND_EXECUTED: ‘&e&lIsland | &7{0}의 섬 구성원에게 명령을 성공적으로 실행했습니다!’ 
-GLOBAL_COMMAND_EXECUTED_NAME: ‘&e&lIsland | &7{0}의 섬 구성원에게 명령을 성공적으로 실행했습니다!’ 
-GLOBAL_MESSAGE_SENT: ‘&e&lIsland | &7{0}의 섬 구성원에게 메시지를 성공적으로 전송했습니다!’ 
-GLOBAL_MESSAGE_SENT_NAME: ‘&e&lIsland | &7{0}의 섬 구성원에게 메시지를 성공적으로 전송했습니다!’ 
-GLOBAL_TITLE_SENT: ‘&e&lIsland | &7{0}의 섬 구성원에게 제목을 성공적으로 전송했습니다!’ 
-GLOBAL_TITLE_SENT_NAME: ‘&e&lIsland | &7{0}의 섬 구성원에게 제목을 성공적으로 전송했습니다!’ 
-GOT_BANNED: ‘&e&lIsland | &7당신은 {0}의 섬에서 차단되었습니다.’ 
-GOT_DEMOTED: ‘&e&lIsland | &7당신은 당신의 섬에서 {0}로 강등되었습니다.’ 
-GOT_EXPELLED: ‘&e&lIsland | &7&o당신은 {0}에 의해 섬에서 추방되었습니다.’ 
-GOT_INVITE: ‘&e&lIsland | &7{0}이 당신을 그의 섬에 초대했습니다.’ 
-GOT_INVITE_TOOLTIP: ‘&7메시지를 클릭하여 초대를 수락하십시오.’ 
-GOT_KICKED: ‘&e&lIsland | &7당신은 {0}에 의해 당신의 섬에서 추방되었습니다.’
-GOT_PROMOTED: ‘&e&l섬 | &7당신은 섬에서 {0}로 승진했습니다.’ 
-GOT_REVOKED: ‘&e&l섬 | &7{0}이 당신의 섬 초대를 취소했습니다.’ 
-GOT_UNBANNED: ‘&e&l섬 | &7당신은 {0}의 섬에서 차단 해제되었습니다.’ 
-HIT_ISLAND_MEMBER: ‘&c&l오류 | &7당신은 섬 구성원을 공격할 수 없습니다.’ 
-HIT_PLAYER_IN_ISLAND: ‘&c&l오류 | &7당신은 섬 안의 플레이어를 공격할 수 없습니다.’ 
-IGNORED_ISLAND: ‘&e&l섬 | &7{0}의 섬이 이제 최고의 섬에서 무시됩니다.’ 
-IGNORED_ISLAND_NAME: ‘&e&l섬 | &7{0} 섬이 이제 최고의 섬에서 무시됩니다.’ 
-INTERACT_OUTSIDE_ISLAND: ‘&c&l오류 | &7당신은 보호 범위 밖에서 상호작용할 수 없습니다.’ 
-INVALID_AMOUNT: ‘&c&l오류 | &7잘못된 금액 {0}.’ 
-INVALID_BIOME: ‘&c&l오류 | &7잘못된 생물 군계 {0}.’ 
-INVALID_BLOCK: ‘&c&l오류 | &7잘못된 블록 위치 {0}.’ 
-INVALID_BORDER_COLOR: ‘&c&l오류 | &7잘못된 경계 색상 {0}.’ 
-INVALID_EFFECT: ‘&c&l오류 | &7잘못된 효과 {0}.’ 
-INVALID_ENTITY: ‘&c&l오류 | &7잘못된 엔티티 {0}.’ 
-INVALID_ENVIRONMENT: ‘&c&l오류 | &7잘못된 세계 {0}.’ 
-INVALID_INTERVAL: ‘&c&l오류 | &7잘못된 간격 {0}.’
-INVALID_ISLAND: ‘&c&lError | &7당신은 섬이 없습니다.’ 
-INVALID_ISLAND_LOCATION: ‘&c&lError | &7당신의 위치에 섬이 없습니다.’ 
-INVALID_ISLAND_OTHER: ‘&c&lError | &7{0}은 섬이 없습니다.’ 
-INVALID_ISLAND_OTHER_NAME: ‘&c&lError | &7{0}라는 이름의 섬이 없습니다.’ 
-INVALID_ISLAND_PERMISSION: | &c&lError | &7섬 권한 {0}을 찾을 수 없습니다. &c&lError | &7섬 권한: {1} 
-INVALID_LEVEL: ‘&c&lError | &7잘못된 레벨 {0}.’ 
-INVALID_LIMIT: ‘&c&lError | &7잘못된 제한 {0}.’ 
-INVALID_MATERIAL: ‘&c&lError | &7잘못된 재료 {0}.’ 
-INVALID_MATERIAL_DATA: ‘&c&lError | &7잘못된 재료 데이터 {0}.’ 
-INVALID_MISSION: ‘&c&lError | &7잘못된 미션 {0}.’ 
-INVALID_MODULE: ‘&c&lError | &7잘못된 모듈 {0}.’ 
-INVALID_MULTIPLIER: ‘&c&lError | &7잘못된 배율 {0}.’ 
-INVALID_PAGE: ‘&c&lError | &7잘못된 페이지 {0}.’ 
-INVALID_PERCENTAGE: ‘&c&lError | &7백분율은 0에서 100 사이여야 합니다.’ 
-INVALID_PLAYER: ‘&c&lError | &7{0}라는 이름의 플레이어를 찾을 수 없습니다.’ 
-INVALID_RATE: | &c&lError | &7{0}라는 이름의 평가를 찾을 수 없습니다. &c&lError | &7섬 평가: {1}
-INVALID_ROWS: ‘&c&lError | &7잘못된 행 수: {0}’ 
-INVALID_ROLE: | &c&lError | &7섬 역할 {0}을 찾을 수 없습니다. &c&lError | &7섬 역할: {1} 
-INVALID_SCHEMATIC: ‘&c&lError | &7{0}라는 이름의 스키마틱을 찾을 수 없습니다.’
-INVALID_SETTINGS: | &c&l오류 | &7섬 설정 {0}을 찾을 수 없습니다. &c&l오류 | &7섬 설정: {1} 
-INVALID_SIZE: ‘&c&l오류 | &7잘못된 크기 {0}.’ 
-INVALID_SLOT: ‘&c&l오류 | &7잘못된 슬롯 {0}.’ 
-INVALID_TITLE: ‘&c&l오류 | &7잘못된 제목이 입력되었습니다.’ 
-INVALID_TOGGLE_MODE: ‘&c&l오류 | &7{0}을 전환할 수 없습니다.’ 
-INVALID_UPGRADE: | &c&l오류 | &7{0}이라는 업그레이드를 찾을 수 없습니다. &c&l오류 | &7업그레이드: {1} 
-INVALID_VISIT_LOCATION: ‘&c&l오류 | &7이 섬에 방문자 위치가 없습니다.’ 
-INVALID_VISIT_LOCATION_BYPASS: ‘&7&o당신은 우회 모드를 가지고 있어 섬으로 순간이동합니다…’ 
-INVALID_WARP: ‘&c&l오류 | &7잘못된 워프 {0}.’ 
-INVALID_WORLD: ‘&c&l오류 | &7잘못된 세계 {0}.’ 
-INVITE_ANNOUNCEMENT: ‘&e&l섬 | &7{0}이 {1}을 섬에 초대했습니다.’ 
-INVITE_BANNED_PLAYER: ‘&c&l오류 | &7이 플레이어는 섬에서 차단되어 초대받을 수 없습니다.’ 
-INVITE_TO_FULL_ISLAND: ‘&c&l오류 | &7당신은 섬에 더 많은 구성원을 초대할 수 없습니다.’ 
-ISLAND_ALREADY_EXIST: ‘&c&l오류 | &7그 이름의 섬이 이미 존재합니다.’
-ISLAND_BANK_EMPTY: ‘&e&lBank | &7섬 은행이 비어 있습니다.’ 
-ISLAND_BANK_SHOW: ‘&e&lBank | &7당신의 섬은 ${0}을 가지고 있습니다.’
-ISLAND_BANK_SHOW_OTHER: ‘&e&l은행 | &7{0}의 섬은 ${1}을 가지고 있습니다.’
+FORMAT_SECONDS_NAME: '초' 
+FORMAT_SECOND_NAME: '초' 
+FORMAT_MINUTES_NAME: '분' 
+FORMAT_MINUTE_NAME: '분' 
+FORMAT_HOURS_NAME: '시간' 
+FORMAT_HOUR_NAME: '시간' 
+FORMAT_DAYS_NAME: '일' 
+FORMAT_DAY_NAME: '일' 
+GENERATOR_CLEARED: '&e&l섬 | &7{0}의 섬의 발전기 수량이 성공적으로 초기화되었습니다.' 
+GENERATOR_CLEARED_NAME: '&e&l섬 | &7{0}의 섬의 발전기 수량이 성공적으로 초기화되었습니다.' 
+GENERATOR_CLEARED_ALL: '&e&l섬 | &7모든 섬의 발전기 수량이 성공적으로 초기화되었습니다.' 
+GENERATOR_UPDATED: '&e&l섬 | &7{1}의 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.' 
+GENERATOR_UPDATED_NAME: '&e&l섬 | &7{1}의 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.' 
+GENERATOR_UPDATED_ALL: '&e&l섬 | &7모든 섬의 발전기 수량이 {0}으로 성공적으로 업데이트되었습니다.'
+GENERATOR_UPDATED: '&e&lIsland | &7{1}의 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.' 
+GENERATOR_UPDATED_NAME: '&e&lIsland | &7{1}의 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.' 
+GENERATOR_UPDATED_ALL: '&e&lIsland | &7모든 섬에서 {0}의 생성기 양을 성공적으로 업데이트했습니다.' 
+GLOBAL_COMMAND_EXECUTED: '&e&lIsland | &7{0}의 섬 구성원에게 명령을 성공적으로 실행했습니다!' 
+GLOBAL_COMMAND_EXECUTED_NAME: '&e&lIsland | &7{0}의 섬 구성원에게 명령을 성공적으로 실행했습니다!' 
+GLOBAL_MESSAGE_SENT: '&e&lIsland | &7{0}의 섬 구성원에게 메시지를 성공적으로 전송했습니다!' 
+GLOBAL_MESSAGE_SENT_NAME: '&e&lIsland | &7{0}의 섬 구성원에게 메시지를 성공적으로 전송했습니다!' 
+GLOBAL_TITLE_SENT: '&e&lIsland | &7{0}의 섬 구성원에게 제목을 성공적으로 전송했습니다!' 
+GLOBAL_TITLE_SENT_NAME: '&e&lIsland | &7{0}의 섬 구성원에게 제목을 성공적으로 전송했습니다!' 
+GOT_BANNED: '&e&lIsland | &7당신은 {0}의 섬에서 차단되었습니다.' 
+GOT_DEMOTED: '&e&lIsland | &7당신은 당신의 섬에서 {0}로 강등되었습니다.' 
+GOT_EXPELLED: '&e&lIsland | &7&o당신은 {0}에 의해 섬에서 추방되었습니다.' 
+GOT_INVITE: '&e&lIsland | &7{0}이 당신을 그의 섬에 초대했습니다.' 
+GOT_INVITE_TOOLTIP: '&7메시지를 클릭하여 초대를 수락하십시오.' 
+GOT_KICKED: '&e&lIsland | &7당신은 {0}에 의해 당신의 섬에서 추방되었습니다.'
+GOT_PROMOTED: '&e&l섬 | &7당신은 섬에서 {0}로 승진했습니다.' 
+GOT_REVOKED: '&e&l섬 | &7{0}이 당신의 섬 초대를 취소했습니다.' 
+GOT_UNBANNED: '&e&l섬 | &7당신은 {0}의 섬에서 차단 해제되었습니다.' 
+HIT_ISLAND_MEMBER: '&c&l오류 | &7당신은 섬 구성원을 공격할 수 없습니다.' 
+HIT_PLAYER_IN_ISLAND: '&c&l오류 | &7당신은 섬 안의 플레이어를 공격할 수 없습니다.' 
+IGNORED_ISLAND: '&e&l섬 | &7{0}의 섬이 이제 최고의 섬에서 무시됩니다.' 
+IGNORED_ISLAND_NAME: '&e&l섬 | &7{0} 섬이 이제 최고의 섬에서 무시됩니다.' 
+INTERACT_OUTSIDE_ISLAND: '&c&l오류 | &7당신은 보호 범위 밖에서 상호작용할 수 없습니다.' 
+INVALID_AMOUNT: '&c&l오류 | &7잘못된 금액 {0}.' 
+INVALID_BIOME: '&c&l오류 | &7잘못된 생물 군계 {0}.' 
+INVALID_BLOCK: '&c&l오류 | &7잘못된 블록 위치 {0}.' 
+INVALID_BORDER_COLOR: '&c&l오류 | &7잘못된 경계 색상 {0}.' 
+INVALID_EFFECT: '&c&l오류 | &7잘못된 효과 {0}.' 
+INVALID_ENTITY: '&c&l오류 | &7잘못된 엔티티 {0}.' 
+INVALID_ENVIRONMENT: '&c&l오류 | &7잘못된 세계 {0}.' 
+INVALID_INTERVAL: '&c&l오류 | &7잘못된 간격 {0}.'
+INVALID_ISLAND: '&c&lError | &7당신은 섬이 없습니다.' 
+INVALID_ISLAND_LOCATION: '&c&lError | &7당신의 위치에 섬이 없습니다.' 
+INVALID_ISLAND_OTHER: '&c&lError | &7{0}은 섬이 없습니다.' 
+INVALID_ISLAND_OTHER_NAME: '&c&lError | &7{0}라는 이름의 섬이 없습니다.' 
+INVALID_ISLAND_PERMISSION: |
+ &c&lError | &7섬 권한 {0}을 찾을 수 없습니다.
+ &c&lError | &7섬 권한: {1}
+INVALID_LEVEL: '&c&lError | &7잘못된 레벨 {0}.' 
+INVALID_LIMIT: '&c&lError | &7잘못된 제한 {0}.' 
+INVALID_MATERIAL: '&c&lError | &7잘못된 재료 {0}.' 
+INVALID_MATERIAL_DATA: '&c&lError | &7잘못된 재료 데이터 {0}.' 
+INVALID_MISSION: '&c&lError | &7잘못된 미션 {0}.' 
+INVALID_MODULE: '&c&lError | &7잘못된 모듈 {0}.' 
+INVALID_MULTIPLIER: '&c&lError | &7잘못된 배율 {0}.' 
+INVALID_PAGE: '&c&lError | &7잘못된 페이지 {0}.' 
+INVALID_PERCENTAGE: '&c&lError | &7백분율은 0에서 100 사이여야 합니다.' 
+INVALID_PLAYER: '&c&lError | &7{0}라는 이름의 플레이어를 찾을 수 없습니다.' 
+INVALID_RATE: |
+  &c&lError | &7{0}라는 이름의 평가를 찾을 수 없습니다..
+  &c&lError | &7섬 평가: {1}
+INVALID_ROWS: '&c&lError | &7잘못된 행 수: {0}' 
+INVALID_ROLE: |
+ &c&lError | &7섬 역할 {0}을 찾을 수 없습니다.
+ &c&lError | &7섬 역할: {1}
+INVALID_SCHEMATIC: '&c&lError | &7{0}라는 이름의 스키마틱을 찾을 수 없습니다.'
+INVALID_SETTINGS: |
+  &c&lError | &7섬 설정{0}을 찾을 수 없습니다.
+  &c&lError | &7섬 설정: {1}
+INVALID_SIZE: '&c&l오류 | &7잘못된 크기 {0}.' 
+INVALID_SLOT: '&c&l오류 | &7잘못된 슬롯 {0}.' 
+INVALID_TITLE: '&c&l오류 | &7잘못된 제목이 입력되었습니다.' 
+INVALID_TOGGLE_MODE: '&c&l오류 | &7{0}을 전환할 수 없습니다.' 
+INVALID_UPGRADE: |
+  &c&lError | &7{0}이라는 업그레이드를 찾을 수 없습니다.
+  &c&lError | &7업그레이드: {1}
+INVALID_VISIT_LOCATION: '&c&l오류 | &7이 섬에 방문자 위치가 없습니다.' 
+INVALID_VISIT_LOCATION_BYPASS: '&7&o당신은 우회 모드를 가지고 있어 섬으로 순간이동합니다…' 
+INVALID_WARP: '&c&l오류 | &7잘못된 워프 {0}.' 
+INVALID_WORLD: '&c&l오류 | &7잘못된 세계 {0}.' 
+INVITE_ANNOUNCEMENT: '&e&l섬 | &7{0}이 {1}을 섬에 초대했습니다.' 
+INVITE_BANNED_PLAYER: '&c&l오류 | &7이 플레이어는 섬에서 차단되어 초대받을 수 없습니다.' 
+INVITE_TO_FULL_ISLAND: '&c&l오류 | &7당신은 섬에 더 많은 구성원을 초대할 수 없습니다.' 
+ISLAND_ALREADY_EXIST: '&c&l오류 | &7그 이름의 섬이 이미 존재합니다.'
+ISLAND_BANK_EMPTY: '&e&lBank | &7섬 은행이 비어 있습니다.' 
+ISLAND_BANK_SHOW: '&e&lBank | &7당신의 섬은 ${0}을 가지고 있습니다.'
+ISLAND_BANK_SHOW_OTHER: '&e&l은행 | &7{0}의 섬은 ${1}을 가지고 있습니다.'
 ISLAND_BANK_SHOW_OTHER_NAME: '&e&l은행 | &7{0} 섬은 ${1}을 보유하고 있습니다.'
-ISLAND_BEING_CALCULATED: ‘&c&l오류 | &7섬이 재계산되는 동안 블록과 상호작용할 수 없습니다!’ 
-ISLAND_CLOSED: ‘&e&l섬 | &7공개에서 섬을 성공적으로 닫았습니다.’ 
-ISLAND_CREATE_PROCESS_FAIL: ‘&c&l오류 | &7당신은 이미 진행중인 섬 생성 작업이 있습니다.’ 
-ISLAND_CREATE_PROCCESS_REQUEST: ‘&e&l섬 | &7당신의 요청을 처리 중입니다…’ 
-ISLAND_FLY_DISABLED: ‘&e&lFly | &7섬 비행이 자동으로 &c비활성화&7되었습니다.’
-ISLAND_FLY_ENABLED: ‘&e&lFly | &7섬 비행이 자동으로 &a활성화&7되었습니다.’ 
-ISLAND_GOT_DELETED_WHILE_INSIDE: ‘&e&lIsland | &7&o당신은 해산된 섬 안에 있었기 때문에 스폰으로 다시 순간 이동되었습니다…’ 
-ISLAND_GOT_PVP_ENABLED_WHILE_INSIDE: ‘&e&lIsland | &7&o당신은 pvp가 켜진 섬 안에 있었기 때문에 스폰으로 다시 순간 이동되었습니다…’ 
-ISLAND_HELP_FOOTER: ‘&e&lSuperiorSkyblock &7Ome_R에 의해 개발되었음 [한글화 - Ha2ram17]’ 
-ISLAND_HELP_HEADER: ‘&e&lSuperiorSkyblock &7명령어 목록 [{0}/{1}]:’ 
-ISLAND_HELP_LINE: ‘&e/{0} &f- &7{1}’ 
-ISLAND_HELP_NEXT_PAGE: ‘&e&lSuperiorSkyblock &7다음 페이지를 위해 /is help {0}를 사용하십시오.’ 
-ISLAND_INFO_ADMIN_BANK_LIMIT: ‘&e&lIsland | &7은행 제한: {0}’
-ISLAND_INFO_ADMIN_BLOCKS_LIMITS: | &e&l섬 | &7블록 제한: {0} 
-ISLAND_INFO_ADMIN_BLOCKS_LIMITS_LINE: ‘&e&l섬 | &7 {0}: {1}’ 
-ISLAND_INFO_ADMIN_COOP_LIMIT: ‘&e&l섬 | &7협력 제한: {0}’ 
-ISLAND_INFO_ADMIN_CROPS_MULTIPLIER: ‘&e&l섬 | &7작물 배율: {0}’ 
-ISLAND_INFO_ADMIN_DROPS_MULTIPLIER: ‘&e&l섬 | &7드롭 배율: {0}’ 
-ISLAND_INFO_ADMIN_ISLAND_EFFECTS: | &e&l섬 | &7섬 효과: {0} 
-ISLAND_INFO_ADMIN_ISLAND_EFFECTS_LINE: ‘&e&l섬 | &7 {0}: {1}’ 
-ISLAND_INFO_ADMIN_ENTITIES_LIMITS: | &e&l섬 | &7엔티티 제한: {0} 
-ISLAND_INFO_ADMIN_ENTITIES_LIMITS_LINE: ‘&e&l섬 | &7 {0}: {1}’ 
-ISLAND_INFO_ADMIN_GENERATOR_RATES: | &e&l섬 | &7발전기 비율 ({1}): {0} 
-ISLAND_INFO_ADMIN_GENERATOR_RATES_LINE: ‘&e&l섬 | &7 {0}: {1}% ({2})’ 
-ISLAND_INFO_ADMIN_ROLE_LIMITS: | &e&l섬 | &7역할 제한: {0} 
-ISLAND_INFO_ADMIN_ROLE_LIMITS_LINE: ‘&e&l섬 | &7 {0}: {1}’ 
-ISLAND_INFO_ADMIN_SIZE: ‘&e&l섬 | &7경계 크기: {0}’ 
-ISLAND_INFO_ADMIN_SPAWNERS_MULTIPLIER: ‘&e&l섬 | &7스포너 배율: {0}’ 
-ISLAND_INFO_ADMIN_TEAM_LIMIT: ‘&e&l섬 | &7팀 제한: {0}’ 
-ISLAND_INFO_ADMIN_UPGRADES: | &e&l섬 | &7업그레이드: {0} 
-ISLAND_INFO_ADMIN_UPGRADE_LINE: ‘&e&l섬 | &7 {0}: {1}’ 
-ISLAND_INFO_ADMIN_VALUE_SYNCED: ‘&a∞’
-ISLAND_INFO_ADMIN_WARPS_LIMIT: ‘&e&l섬 | &7워프 제한: {0}’ 
-ISLAND_INFO_BANK: ‘&e&l섬 | &7은행: {0}’ 
-ISLAND_INFO_BONUS: ‘&e&l섬 | &7가치 보너스: {0}’ 
-ISLAND_INFO_BONUS_LEVEL: ‘&e&l섬 | &7레벨 보너스: {0}’
-ISLAND_INFO_CREATION_TIME: ‘&e&lIsland | &7생성 시간: {0}’ 
-ISLAND_INFO_DISCORD: ‘&e&lIsland | &7Discord: {0}’ 
-ISLAND_INFO_FOOTER: ‘’ ISLAND_INFO_HEADER: ‘’ 
-ISLAND_INFO_LAST_TIME_UPDATED: ‘&e&lIsland | &7마지막 업데이트 시간: {0} 전’ 
-ISLAND_INFO_LAST_TIME_UPDATED_CURRENTLY_ACTIVE: ‘&e&lIsland | &7마지막 업데이트 시간: &a현재 활성화’ 
-ISLAND_INFO_LEVEL: ‘&e&lIsland | &7레벨: {0}’ 
-ISLAND_INFO_LOCATION: ‘&e&lIsland | &7홈: {0}’ 
-ISLAND_INFO_NAME: ‘&e&lIsland | &7이름: {0}’ 
-ISLAND_INFO_OWNER: ‘&e&lIsland | &7리더: {0}’ 
-ISLAND_INFO_PAYPAL: ‘&e&lIsland | &7Paypal: {0}’ 
-ISLAND_INFO_PLAYER_LINE: ‘&e&lIsland | &7 - {0}’ 
-ISLAND_INFO_RATE: ‘&e&lIsland | &7평가: {0} &7({1}/5) - 총 {2}개의 평가.’ 
-ISLAND_INFO_RATE_EMPTY_SYMBOL: ‘&f✧’ 
-ISLAND_INFO_RATE_SYMBOL: ‘✦’ 
-ISLAND_INFO_RATE_ONE_COLOR: ‘&4’ 
-ISLAND_INFO_RATE_TWO_COLOR: ‘&6’ 
-ISLAND_INFO_RATE_THREE_COLOR: ‘&e’ 
-ISLAND_INFO_RATE_FOUR_COLOR: ‘&a’ 
-ISLAND_INFO_RATE_FIVE_COLOR: ‘&2’
-ISLAND_INFO_ROLES: | &e&l섬 | &7{0}: {1} 
-ISLAND_INFO_VISITORS_COUNT: ‘&e&l섬 | &7방문자 수: {0}’ 
-ISLAND_INFO_WORTH: ‘&e&l섬 | &7가치: {0}’ 
-ISLAND_OPENED: ‘&e&l섬 | &7공개에서 섬을 성공적으로 열었습니다.’ 
-ISLAND_PREVIEW_CANCEL_DISTANCE: ‘&e&l미리보기 | &7너무 멀리 떨어져 미리보기 모드가 더 이상 아닙니다.’ 
-ISLAND_PREVIEW_CANCEL: ‘&e&l미리보기 | &7당신은 미리보기 모드를 취소했습니다.’ 
-ISLAND_PREVIEW_CONFIRM_TEXT: ‘확인’ ISLAND_PREVIEW_CANCEL_TEXT: ‘취소’ 
-ISLAND_PREVIEW_START: | &e&l미리보기 | &7당신은 스키마틱 {0}에 대한 미리보기 모드를 시작했습니다. &e&l미리보기 | &7새로운 섬을 만들려면 &a&l확인 &7을 입력하거나, 미리보기 모드를 취소하려면 &c&l취소 &7를 입력하세요. &e&l미리보기 | &7섬의 영역을 벗어나지 않으면 미리보기 모드가 자동으로 취소됩니다. 
-ISLAND_PROTECTED: ‘&c&l오류 | &7이 섬은 보호됩니다.’ 
-ISLAND_PROTECTED_OPPED: ‘&7&o"/is admin bypass"를 사용하여 이 제한을 우회할 수 있습니다.’ 
-ISLAND_TEAM_STATUS_FOOTER: ‘’ 
-ISLAND_TEAM_STATUS_HEADER: ‘&e&l섬 | &7{0}의 섬 구성원들 &8[&e{1}&8/&e{2}&8]&7:’ 
-ISLAND_TEAM_STATUS_OFFLINE: ‘&c(오프라인)’ 
-ISLAND_TEAM_STATUS_ONLINE: ‘&a(온라인)’
-ISLAND_TEAM_STATUS_ROLES: ‘&e&l섬 | &7 * [{0}] {1} {2} &7({3})’ 
-ISLAND_TOP_STATUS_OFFLINE: ‘&c(오프라인)’ 
-ISLAND_TOP_STATUS_ONLINE: ‘&a(온라인)’ 
-ISLAND_WARP_PUBLIC: ‘’ 
-ISLAND_WARP_PRIVATE: ‘&c[비공개]’
-ISLAND_WAS_CLOSED: ‘&e&lIsland | &7&o섬이 닫혔고 당신은 스폰으로 다시 순간이동되었습니다…’ 
-ISLAND_WORTH_ERROR: ‘&c&lError | &7섬을 계산하는 동안 예기치 않은 오류가 발생했습니다. 문제가 지속되면 관리자에게 문의하십시오.’ 
-ISLAND_WORTH_RESULT: ‘&e&lIsland | &7당신의 섬 가치는 {0} [레벨 {1}]’ 
-ISLAND_WORTH_TIME_OUT: ‘&c&lError | &7계산 작업이 시간 초과되었습니다. 나중에 다시 시도하십시오…’ 
-JOIN_ADMIN_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 당신의 섬에 참여했습니다.’ 
-JOIN_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 당신의 섬에 참여했습니다.’ 
-JOIN_FULL_ISLAND: ‘&c&lError | &7이 섬은 허용된 최대 인원에 도달했습니다.’ 
-JOIN_WHILE_IN_ISLAND: ‘&c&lError | &7당신은 이미 섬 안에 있습니다.’ 
-JOINED_ISLAND: ‘&e&lIsland | &7당신은 {0}의 섬에 참여했습니다.’ 
-JOINED_ISLAND_NAME: ‘&e&lIsland | &7당신은 {0} 섬에 참여했습니다.’ 
-JOINED_ISLAND_AS_COOP: ‘&e&lIsland | &7당신은 이제 {0}의 섬의 협력 회원입니다.’ 
-JOINED_ISLAND_AS_COOP_NAME: ‘&e&lIsland | &7당신은 이제 {0} 섬의 협력 회원입니다.’ 
-KICK_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) {1}에 의해 섬에서 추방되었습니다.’ 
-KICK_ISLAND_LEADER: ‘&c&lError | &7섬의 리더를 추방할 수 없습니다. 대신 /is admin disband를 사용하십시오.’ 
-KICK_PLAYERS_WITH_LOWER_ROLE: ‘&c&lError | &7당신보다 낮은 섬 역할을 가진 플레이어만 추방할 수 있습니다.’ 
-LACK_CHANGE_PERMISSION: ‘&c&lError | &7다른 역할로 변경하려면 이 권한이 있어야 합니다.’ 
-LAST_ROLE_DEMOTE: ‘&c&lError | &7이 플레이어를 더 이상 강등할 수 없습니다.’ 
-LAST_ROLE_PROMOTE: ‘&c&lError | &7이 플레이어를 더 이상 승진시킬 수 없습니다.’ 
-LEAVE_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 섬을 떠났습니다.’
-LEAVE_ISLAND_AS_LEADER: |- &c&lError | &7당신이 소유한 섬을 떠날 수 없습니다. &c&lError | &7/is transfer를 사용하여 소유권을 이전할 수 있습니다. 
-LEFT_ISLAND: ‘&e&lIsland | &7당신은 섬을 떠났습니다.’ LEFT_ISLAND_COOP: ‘&e&lIsland | &7당신은 더 이상 {0}의 섬의 협력 회원이 아닙니다.’ 
-LEFT_ISLAND_COOP_NAME: ‘&e&lIsland | &7당신은 더 이상 {0} 섬의 협력 회원이 아닙니다.’ 
-MATERIAL_NOT_SOLID: ‘&c&lError | &7반드시 단단한 재료를 제공해야 합니다.’ 
-MAXIMUM_LEVEL: ‘&c&lError | &7이 업그레이드의 최대 레벨은 {0}입니다.’ 
-MESSAGE_SENT: ‘&e&lIsland | &7성공적으로 {0}에게 메시지를 전송했습니다!’ 
-MISSION_CANNOT_COMPLETE: ‘&c&lError | &7아직 이 임무를 완료할 수 없습니다.’ 
-MISSION_NO_AUTO_REWARD: ‘&e&lMission | &7{0}을 완료하기 위해 필요한 모든 재료가 있습니다 - /is missions를 사용하여 완료하십시오!’ 
-MISSION_NOT_COMPLETE_REQUIRED_MISSIONS: ‘&c&lError | &7이 임무를 완료하기 전에 {0}을 완료해야 합니다.’ 
-MISSION_STATUS_COMPLETE: ‘&e&lMission | &7{1}의 임무 {0}의 상태를 완료로 변경했습니다.’ 
-MISSION_STATUS_COMPLETE_ALL: ‘&e&lMission | &7{0}의 모든 임무의 상태를 완료로 변경했습니다.’ 
-MISSION_STATUS_RESET: ‘&e&lMission | &7{1}의 임무 {0}의 상태를 초기화했습니다.’ 
-MISSION_STATUS_RESET_ALL: ‘&e&lMission | &7{0}의 모든 임무의 상태를 초기화했습니다.’ 
-MODULE_ALREADY_INITIALIZED: ‘&e&lModule | &7이 모듈은 이미 로드되었습니다.’ 
-MODULE_INFO: | &e&lModule | &7{0} by {1} &e&lModule | &7&m-------------------- &e&lModule | &7{2} 
-MODULE_LOADED_SUCCESS: ‘&e&lModule | &7모듈 {0}을 성공적으로 로드했습니다.’ 
-MODULE_LOADED_FAILURE: ‘&e&lModule | &7모듈 {0}을 로드하지 못했습니다. 자세한 정보는 콘솔을 확인하십시오.’
-MODULE_UNLOADED_SUCCESS: ‘&e&lModule | &7모듈을 성공적으로 언로드했습니다.’ 
-MODULES_LIST: ‘&f모듈 ({0}): {1}’ 
-MODULES_LIST_MODULE_NAME: ‘&a{0}’ 
-MODULES_LIST_SEPARATOR: '&f, ’ 
-NAME_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 섬 이름을 {1}(으)로 변경했습니다.’ 
-NAME_BLACKLISTED: ‘&c&lError | &7그 이름을 사용할 수 없습니다.’ 
-NAME_CHAT_FORMAT: ‘&8[&e{0}&8] &r’ 
-NAME_SAME_AS_PLAYER: ‘&c&lError | &7섬 이름으로 플레이어 이름을 사용할 수 없습니다.’ 
-NAME_TOO_LONG: ‘&c&lError | &7섬 이름은 16자 이상이 될 수 없습니다.’ 
-NAME_TOO_SHORT: ‘&c&lError | &7섬 이름은 3자 미만이 될 수 없습니다.’ 
-NO_BAN_PERMISSION: ‘&c&lError | &7플레이어를 차단하려면 최소한 {0}이어야 합니다.’ 
-NO_CLOSE_BYPASS: ‘&c&lError | &7이 섬은 일반인에게 개방되지 않았습니다.’ 
-NO_CLOSE_PERMISSION: ‘&c&lError | &7섬을 일반인에게 닫으려면 최소한 {0}이어야 합니다.’ 
-NO_COMMAND_PERMISSION: ‘&f알 수 없는 명령입니다. 도움말을 보려면 "/help"를 입력하십시오.’ 
-NO_COOP_PERMISSION: ‘&c&lError | &7협력 회원으로 플레이어를 추가하려면 최소한 {0}이어야 합니다.’ 
-NO_DELETE_WARP_PERMISSION: ‘&c&lError | &7워프를 삭제하려면 최소한 {0}이어야 합니다.’ 
-NO_DEMOTE_PERMISSION: ‘&c&lError | &7플레이어를 강등하려면 최소한 {0}이어야 합니다.’ 
-NO_DEPOSIT_PERMISSION: ‘&c&lError | &7섬 은행에 돈을 입금하려면 최소한 {0}이어야 합니다.’ 
-NO_DISBAND_PERMISSION: ‘&c&lError | &7섬을 해체하려면 최소한 {0}이어야 합니다.’ 
-NO_EXPEL_PERMISSION: ‘&c&lError | &7당신의 섬에서 플레이어를 추방하려면 최소한 {0}이어야 합니다.’ 
-NO_INVITE_PERMISSION: ‘&c&lError | &7플레이어를 초대하려면 최소한 {0}이어야 합니다.’ 
-NO_ISLAND_CHEST_PERMISSION: ‘&c&lError | &7섬의 상자에 접근하려면 최소한 {0}이어야 합니다.’ 
-NO_ISLAND_INVITE: ‘&c&lError | &7이 섬에서 초대장을 찾을 수 없습니다.’ 
-NO_ISLANDS_TO_PURGE: ‘&c&lError | &7청소할 섬이 없었습니다.’
-NO_KICK_PERMISSION: ‘&c&lError | &7플레이어를 추방하려면 최소한 {0}이어야 합니다.’ 
-NO_MORE_DISBANDS: ‘&c&lError | &7더 이상 섬을 해체할 수 없습니다.’ 
-NO_MORE_WARPS: ‘&c&lError | &7당신의 섬은 더 이상 워프를 가질 수 없습니다.’ 
-NO_NAME_PERMISSION: ‘&c&lError | &7당신은 섬 이름을 변경할 수 없습니다.’ 
-NO_OPEN_PERMISSION: ‘&c&lError | &7섬을 일반인에게 개방하려면 최소한 {0}이어야 합니다.’ 
-NO_PERMISSION_CHECK_PERMISSION: ‘&c&lError | &7권한에 대한 정보를 얻으려면 최소한 {0}이어야 합니다.’ 
-NO_PROMOTE_PERMISSION: ‘&c&lError | &7플레이어를 승진시키려면 최소한 {0}이어야 합니다.’ 
-NO_RANKUP_PERMISSION: ‘&c&lError | &7업그레이드를 랭크업하려면 최소한 {0}이어야 합니다.’ 
-NO_RATINGS_PERMISSION: ‘&c&lError | &7등급을 확인하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_BIOME_PERMISSION: ‘&c&lError | &7섬 생물군계를 변경하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_DISCORD_PERMISSION: ‘&c&lError | &7섬 디스코드를 변경하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_HOME_PERMISSION: ‘&c&lError | &7섬의 순간이동 위치를 설정하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_PAYPAL_PERMISSION: ‘&c&lError | &7섬 페이팔 이메일을 변경하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_ROLE_PERMISSION: ‘&c&lError | &7플레이어의 역할을 설정하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_SETTINGS_PERMISSION: ‘&c&lError | &7섬 설정을 변경하려면 최소한 {0}이어야 합니다.’ 
-NO_SET_WARP_PERMISSION: ‘&c&lError | &7섬 워프를 설정하려면 최소한 {0}이어야 합니다.’ 
-NO_TRANSFER_PERMISSION: ‘&c&lError | &7리더십을 이전하려면 섬의 리더여야 합니다.’
-NO_UNCOOP_PERMISSION: ‘&c&l오류 | &7{0} 이상이어야만 협력 멤버를 제거할 수 있습니다.’ 
-NO_UPGRADE_PERMISSION: ‘&c&l오류 | &7다른 레벨로 업그레이드 할 권한이 없습니다.’ 
-NO_WITHDRAW_PERMISSION: ‘&c&l오류 | &7{0} 이상이어야만 섬 은행에서 돈을 인출할 수 있습니다.’ 
-NOT_ENOUGH_MONEY_TO_DEPOSIT: ‘&c&l오류 | &7섬 은행에 {0} 달러를 입금할 충분한 돈이 없습니다.’ 
-NOT_ENOUGH_MONEY_TO_UPGRADE: ‘&c&l오류 | &7충분한 돈이 없습니다.’ 
-NOT_ENOUGH_MONEY_TO_WARP: ‘&c&l오류 | &7섬 워프를 사용하기에 충분한 돈이 없습니다.’ 
-OPEN_MENU_WHILE_SLEEPING: ‘&7&o메뉴와 상호작용하는 것은 너무 피곤하지 않나요?’ 
-PANEL_TOGGLE_OFF: |- &e&l패널 | &7섬 패널을 &cOFF&7로 전환했습니다. &e&l패널 | &7/is를 실행하면 섬으로 이동합니다. 
-PANEL_TOGGLE_ON: |- &e&l패널 | &7섬 패널을 &aON&7로 전환했습니다. &e&l패널 | &7/is를 실행하면 패널이 열립니다. 
-PERMISSION_CHANGED: ‘&e&l섬 | &7{1}의 섬의 권한 {0}을 성공적으로 업데이트했습니다.’ 
-PERMISSION_CHANGED_NAME: ‘&e&l섬 | &7섬 {1}의 권한 {0}을 성공적으로 업데이트했습니다.’ 
-PERMISSION_CHANGED_ALL: ‘&e&l섬 | &7모든 섬의 권한 {0}을 성공적으로 업데이트했습니다.’
-PERSISTENT_DATA_EMPTY: ‘&c&lError | &7당신의 쿼리에 대한 데이터가 없습니다.’ 
-PERSISTENT_DATA_MODIFY: ‘&e&lData | &7{0}에 대한 데이터를 {1}: {2}로 성공적으로 설정했습니다.’ 
-PERSISTENT_DATA_SHOW: ‘&e&lData | &7{0}의 데이터: &f{{1}}’ 
-PERSISTENT_DATA_SHOW_PATH: '&b{0}&f: ’ 
-PERSISTENT_DATA_SHOW_SPACER: '&f, ’ 
-PERSISTENT_DATA_SHOW_VALUE: ‘&6{0}&c{1}&f’ 
-PERSISTENT_DATA_REMOVED: ‘&e&lData | &7{0}의 경로 {1}에서 데이터를 성공적으로 제거했습니다.’ 
-PERMISSIONS_RESET_PLAYER: ‘&e&lIsland | &7{0}의 모든 권한을 기본값으로 성공적으로 재설정했습니다!’ 
-PERMISSIONS_RESET_ROLES: ‘&e&lIsland | &7섬의 모든 권한을 기본값으로 성공적으로 재설정했습니다!’ 
-PLACEHOLDER_NO: ‘아니오’ 
-PLACEHOLDER_YES: ‘예’ 
-PLAYER_ALREADY_BANNED: ‘&c&lError | &7이 플레이어는 이미 차단되었습니다.’ 
-PLAYER_ALREADY_COOP: ‘&c&lError | &7이 플레이어는 이미 협력 회원입니다.’ 
-PLAYER_ALREADY_IN_ISLAND: ‘&c&lError | &7이 플레이어는 이미 섬 안에 있습니다.’ 
-PLAYER_ALREADY_IN_ROLE: ‘&c&lError | &7{0}은(는) 이미 {1}입니다.’ 
-PLAYER_EXPEL_BYPASS: ‘&c&lError | &7이 사용자는 섬에서 추방될 수 없습니다.’ 
-PLAYER_JOIN_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 서버에 참여했습니다.’
-PLAYER_NOT_BANNED: ‘&c&l오류 | &7이 플레이어는 차단되지 않았습니다.’ 
-PLAYER_NOT_COOP: ‘&c&l오류 | &7이 플레이어는 협력하지 않습니다.’ 
-PLAYER_NOT_INSIDE_ISLAND: ‘&c&l오류 | &7이 플레이어는 섬 안에 없습니다.’ 
-PLAYER_NOT_ONLINE: ‘&c&l오류 | &7이 플레이어는 온라인 상태가 아닙니다!’ 
-PLAYER_QUIT_ANNOUNCEMENT: ‘&e&l섬 | &7{0}이 서버에서 나갔습니다.’ 
-PROMOTE_PLAYERS_WITH_LOWER_ROLE: ‘&c&l오류 | &7당신보다 낮은 섬 역할을 가진 플레이어만 승진시킬 수 있습니다.’ 
-PROMOTED_MEMBER: ‘&e&l섬 | &7당신은 {0}을 그의 섬에서 {1}로 승진시켰습니다.’ 
-PURGE_CLEAR: ‘&e&l섬 | &7성공적으로 모든 대기 중인 섬을 제거했습니다.’ 
-PURGED_ISLANDS: |- &e&l섬 | &7서버가 재시작될 때 {0}개의 섬이 제거됩니다. &e&l섬 | &7/is admin purge cancel을 사용하여 언제든지 취소할 수 있습니다. 
-RANKUP_SUCCESS: ‘&e&l섬 | &7{1}의 섬의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.’ 
-RANKUP_SUCCESS_ALL: ‘&e&l섬 | &7모든 섬의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.’ 
-RANKUP_SUCCESS_NAME: ‘&e&l섬 | &7{1}의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.’ 
-RATE_ANNOUNCEMENT: ‘&e&l섬 | &7{0}이 당신의 섬을 5점 만점 중 {1}점으로 평가했습니다!.’ 
-RATE_CHANGE_OTHER: ‘&e&l섬 | &7당신은 {0}의 평가를 {1}로 변경했습니다.’ 
-RATE_OWN_ISLAND: ‘&c&l오류 | &7자신의 섬을 평가할 수 없습니다.’ 
-RATE_REMOVE_ALL: ‘&e&l섬 | &7{0}의 모든 평가를 성공적으로 제거했습니다.’
-RATE_REMOVE_ALL_ISLANDS: ‘&e&lIsland | &7모든 섬의 모든 평가를 성공적으로 제거했습니다.’ 
-RATE_SUCCESS: ‘&e&lIsland | &7당신은 이 섬에 {0}개의 별로 평가했습니다!’ 
-REACHED_BLOCK_LIMIT: ‘&e&lUpgrades | &7{0} 블록에 대한 섬의 한도에 도달했습니다.’ 
-RECALC_ALREADY_RUNNING: ‘&c&lError | &7당신의 섬은 이미 다시 계산 중입니다.’ 
-RECALC_ALREADY_RUNNING_OTHER: ‘&c&lError | &7이 섬은 이미 다시 계산 중입니다.’ 
-RECALC_ALL_ISLANDS: ‘&e&lIsland | &7모든 섬을 다시 계산 중…’ 
-RECALC_ALL_ISLANDS_DONE: ‘&e&lIsland | &7모든 섬의 다시 계산을 성공적으로 완료했습니다.’ 
-RECALC_PROCCESS_REQUEST: ‘&e&lIsland | &7당신의 요청을 처리 중…’ 
-RELOAD_COMPLETED: ‘&e&lIsland | &7재로드가 완료되었습니다!’ 
-RELOAD_PROCCESS_REQUEST: ‘&e&lIsland | &7구성을 다시 로드하기 시작합니다…’ 
-REVOKE_INVITE_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) {1}에게 섬 초대를 철회했습니다.’ 
-RESET_WORLD_SUCCEED: ‘&e&lIsland | &7{1}의 섬에 대한 {0} 세계를 성공적으로 재설정했습니다.’ 
-RESET_WORLD_SUCCEED_ALL: ‘&e&lIsland | &7모든 섬에 대한 {0} 세계를 성공적으로 재설정했습니다.’ 
-RESET_WORLD_SUCCEED_NAME: ‘&e&lIsland | &7{1}에 대한 {0} 세계를 성공적으로 재설정했습니다.’ 
-SAME_NAME_CHANGE: ‘&c&lError | &7당신은 현재 섬 이름과 다른 이름을 입력해야 합니다.’ 
-SCHEMATIC_LEFT_SELECT: ‘&e&lSchematics | &7위치 #2 선택 ({0})’ 
-SCHEMATIC_NOT_READY: ‘&c&lError | &7두 개의 위치를 선택하지 않았습니다.’
-SCHEMATIC_PROCCESS_REQUEST: ‘&e&lSchematics | &7당신의 요청을 처리 중…’ 
-SCHEMATIC_READY_TO_CREATE: | &e&lSchematics | &7두 개의 위치를 선택했습니다. /is admin schematic <name>을 실행하여 새 스키마틱을 만드십시오. &e&lSchematics | &7명령을 실행할 때 순간이동 위치에 서 있는지 확인하십시오. 
-SCHEMATIC_RIGHT_SELECT: ‘&e&lSchematics | &7위치 #1 선택 ({0})’ 
-SCHEMATIC_SAVED: ‘&e&lSchematics | &7스키마틱을 성공적으로 저장했습니다!’ 
-SELF_ROLE_CHANGE: ‘&c&lError | &7당신은 자신의 역할을 변경할 수 없습니다.’ 
-SET_UPGRADE_LEVEL: ‘&e&lUpgrades | &7{1}의 섬에 대한 {0}의 레벨을 성공적으로 업데이트했습니다.’ 
-SET_UPGRADE_LEVEL_NAME: ‘&e&lUpgrades | &7{1}에 대한 {0}의 레벨을 성공적으로 업데이트했습니다.’ 
-SET_WARP: ‘&e&lIsland | &7{0}에서 새 워프를 성공적으로 만들었습니다.’ 
-SET_WARP_OUTSIDE: ‘&c&lError | &7당신은 섬 밖에서 워프를 설정할 수 없습니다.’ 
-SETTINGS_UPDATED: ‘&e&lIsland | &7{1}의 섬에 대한 설정 {0}을 성공적으로 업데이트했습니다.’ 
-SETTINGS_UPDATED_NAME: ‘&e&lIsland | &7섬 {1}에 대한 설정 {0}을 성공적으로 업데이트했습니다.’ 
-SETTINGS_UPDATED_ALL: ‘&e&lIsland | &7모든 섬에 대한 설정 {0}을 성공적으로 업데이트했습니다.’ 
-SIZE_BIGGER_MAX: ‘&c&lError | &7최대 섬 크기보다 큰 크기를 설정할 수 없습니다.’ 
-SPAWN_TELEPORT_SUCCESS: ‘&e&lSpawn | &7{0}을(를) 스폰으로 성공적으로 순간이동했습니다.’ 
-SPAWN_SET_SUCCESS: ‘&e&lSpawn | &7스폰 위치를 {0}(으)로 성공적으로 업데이트했습니다.’ 
-SPY_TEAM_CHAT_FORMAT: ‘&7[Spy] &e[{0}] {1}&f: &7{2}’ 
-SYNC_UPGRADES: ‘&e&lUpgrades | &7{0}의 섬의 모든 업그레이드 값을 성공적으로 동기화했습니다.’ 
-SYNC_UPGRADES_ALL: ‘&e&lUpgrades | &7모든 섬의 모든 업그레이드 값을 성공적으로 동기화했습니다.’ 
-SYNC_UPGRADES_NAME: ‘&e&lUpgrades | &7{0}의 모든 업그레이드 값을 성공적으로 동기화했습니다.’
-TEAM_CHAT_FORMAT: ‘&e[{0}] {1}&f: &7{2}’ 
-TELEPORT_LOCATION_OUTSIDE_ISLAND: ‘&c&l오류 | &7당신은 섬 안에 있지 않습니다.’ 
-TELEPORT_OUTSIDE_ISLAND: ‘&c&l오류 | &7보호 범위 밖으로 이동할 수 없습니다.’ 
-TELEPORT_WARMUP: ‘&7&o{0} 후에 이동합니다… 움직이지 마세요!’ 
-TELEPORT_WARMUP_CANCEL: ‘&7&o움직여서 이동이 취소되었습니다.’ 
-TITLE_SENT: ‘&e&l섬 | &7성공적으로 {0}에게 제목을 전송했습니다!’ 
-TELEPORTED_FAILED: ‘&e&l섬 | &7이 섬에 안전한 블록이 없는 것 같습니다. 스태프 멤버에게 문의하세요.’ 
-TELEPORTED_SUCCESS: ‘&e&l섬 | &7당신은 섬으로 이동했습니다.’ 
-TELEPORTED_TO_WARP: ‘&e&l섬 | &7성공적으로 이 섬 워프로 이동했습니다.’ 
-TELEPORTED_TO_WARP_ANNOUNCEMENT: ‘&e&l섬 | &7플레이어 {0}이 섬 워프 {1}로 이동했습니다.’ 
-TOGGLED_BYPASS_OFF: ‘&e&l바이패스 | &7바이패스 모드를 &cOFF&7로 전환했습니다.’ 
-TOGGLED_BYPASS_ON: ‘&e&l바이패스 | &7바이패스 모드를 &aON&7로 전환했습니다.’ 
-TOGGLED_FLY_OFF: ‘&e&lFly | &7섬 비행을 &cOFF&7로 전환했습니다.’ 
-TOGGLED_FLY_ON: ‘&e&lFly | &7섬 비행을 &aON&7로 전환했습니다.’ 
-TOGGLED_SCHEMATIC_OFF: ‘&e&l스케마틱 | &7스케마틱 모드를 &cOFF&7로 전환합니다.’ 
-TOGGLED_SCHEMATIC_ON: |- &e&l스케마틱 | &7스케마틱 모드를 &aON&7로 전환합니다. &e&l스케마틱 | &7골든 엑스를 사용하여 영역을 선택하세요. 
-TOGGLED_SPY_OFF: ‘&e&lSpy | &7스파이 채팅을 &cOFF&7로 전환합니다.’ 
-TOGGLED_SPY_ON: ‘&e&lSpy | &7스파이 채팅을 &aON&7로 전환합니다.’ 
-TOGGLED_STACKED_BLOCKS_OFF: ‘&e&lStacker | &7블록 스택을 &cOFF&7로 전환합니다.’
-TOGGLED_STACKED_BLOCKS_ON: ‘&e&lStacker | &7블록 스택을 &a켭니다&7.’ 
-TOGGLED_TEAM_CHAT_OFF: ‘&e&lChat | &7팀 채팅을 &c끕니다&7.’ 
-TOGGLED_TEAM_CHAT_ON: ‘&e&lChat | &7팀 채팅을 &a켭니다&7.’ 
-TOGGLED_WORLD_BORDER_OFF: ‘&e&lBorder | &7월드 경계를 &c끕니다&7.’ 
-TOGGLED_WORLD_BORDER_ON: ‘&e&lBorder | &7월드 경계를 &a켭니다&7.’ 
-TRANSFER_ADMIN: ‘&e&lIsland | &7당신은 {0}의 리더십을 {1}(으)로 이전했습니다.’ 
-TRANSFER_ADMIN_ALREADY_LEADER: ‘&c&lError | &7{0}은(는) 이미 섬의 리더입니다.’ 
-TRANSFER_ADMIN_DIFFERENT_ISLAND: ‘&c&lError | &7이 플레이어들은 같은 섬에 있지 않습니다.’ 
-TRANSFER_ADMIN_NOT_LEADER: ‘&c&lError | &7이 플레이어는 섬의 리더가 아닙니다.’ 
-TRANSFER_ALREADY_LEADER: ‘&c&lError | &7당신은 이미 이 섬의 리더입니다.’ 
-TRANSFER_BROADCAST: ‘&e&lIsland | &7섬의 리더십이 {0}(으)로 이전되었습니다.’ 
-UNBAN_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) {1}에 의해 섬에서 차단 해제되었습니다.’ 
-UNCOOP_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) {1}을(를) 협력 회원에서 제거했습니다.’ 
-UNCOOP_AUTO_ANNOUNCEMENT: ‘&e&lIsland | &7온라인인 섬 회원이 없으므로 자동으로 협력 회원에서 제외되었습니다.’ 
-UNCOOP_LEFT_ANNOUNCEMENT: ‘&e&lIsland | &7{0}이(가) 게임을 떠나고 더 이상 협력 회원이 아닙니다.’ 
-UNIGNORED_ISLAND: ‘&e&lIsland | &7{0}의 섬이 이제 최고의 섬에서 무시되지 않습니다.’ 
-UNIGNORED_ISLAND_NAME: ‘&e&lIsland | &7섬 {0}이 이제 최고의 섬에서 무시되지 않습니다.’ 
-UNLOCK_WORLD_ANNOUNCEMENT: ‘&e&lWorlds | &7당신의 {0} 세계가 이제 잠금 해제되었습니다!’ 
-UNSAFE_WARP: ‘&e&lIsland | &7&o이 워프는 안전하지 않은 것 같습니다. 다른 워프를 시도하십시오.’ 
-UPDATED_PERMISSION: ‘&e&lIsland | &7{0}에 대한 권한을 업데이트했습니다.’ 
-UPDATED_SETTINGS: ‘&e&lIsland | &7섬 설정 {0}을 업데이트했습니다.’ 
-UPGRADE_COOLDOWN_FORMAT: ‘&c&lError | &7다시 업그레이드할 수 있을 때까지 {0} 남았습니다.’ 
-VISITOR_BLOCK_COMMAND: ‘&c&lError | &7다른 섬에서 그 명령을 사용할 수 없습니다.’ 
-WARP_ALREADY_EXIST: ‘&c&lError | &7이미 그 이름의 워프가 있습니다.’
-WARP_CATEGORY_ICON_NEW_LORE: | &e&l워프 | &7새로운 설명을 입력하세요 (취소하려면 “-cancel"을 입력하세요): &e&l워프 | &7”\n"을 사용하여 줄을 구분할 수 있습니다. 
-WARP_CATEGORY_ICON_NEW_NAME: ‘&e&l워프 | &7이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’ 
-WARP_CATEGORY_ICON_NEW_TYPE: ‘&e&l워프 | &7새로운 재료 유형을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’ 
-WARP_CATEGORY_ICON_UPDATED: ‘&e&l워프 | &7카테고리 아이콘이 성공적으로 업데이트되었습니다.’ 
-WARP_CATEGORY_ILLEGAL_NAME: ‘&c&l오류 | &7워프 카테고리 이름은 비어 있을 수 없습니다.’ 
-WARP_CATEGORY_NAME_TOO_LONG: ‘&c&l오류 | 워프 카테고리 이름은 255자보다 길 수 없습니다.’ 
-WARP_CATEGORY_SLOT: ‘&e&l워프 | &7새로운 슬롯을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’ 
-WARP_CATEGORY_SLOT_ALREADY_TAKEN: ‘&c&l오류 | &7이 슬롯은 다른 카테고리에서 이미 사용 중입니다.’ 
-WARP_CATEGORY_SLOT_SUCCESS: ‘&e&l워프 | &7카테고리의 슬롯이 성공적으로 {0}으로 변경되었습니다.’ 
-WARP_CATEGORY_RENAME: ‘&e&l워프 | &7새로운 이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’ 
-WARP_CATEGORY_RENAME_ALREADY_EXIST: ‘&c&l오류 | &7이 이름은 다른 카테고리에서 이미 사용 중입니다.’ 
-WARP_CATEGORY_RENAME_SUCCESS: ‘&e&l워프 | &7카테고리가 성공적으로 {0}으로 이름이 변경되었습니다.’ 
-WARP_ICON_NEW_LORE: | &e&l워프 | &7새로운 설명을 입력하세요 (취소하려면 “-cancel"을 입력하세요): &e&l워프 | &7”\n"을 사용하여 줄을 구분할 수 있습니다. 
-WARP_ICON_NEW_NAME: ‘&e&l워프 | &7이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’ 
-WARP_ICON_NEW_TYPE: ‘&e&l워프 | &7새로운 재료 유형을 입력하세요 (취소하려면 "-cancel"을 입력하세요):’
+ISLAND_BEING_CALCULATED: '&c&l오류 | &7섬이 재계산되는 동안 블록과 상호작용할 수 없습니다!' 
+ISLAND_CLOSED: '&e&l섬 | &7공개에서 섬을 성공적으로 닫았습니다.' 
+ISLAND_CREATE_PROCESS_FAIL: '&c&l오류 | &7당신은 이미 진행중인 섬 생성 작업이 있습니다.' 
+ISLAND_CREATE_PROCCESS_REQUEST: '&e&l섬 | &7당신의 요청을 처리 중입니다…' 
+ISLAND_FLY_DISABLED: '&e&lFly | &7섬 비행이 자동으로 &c비활성화&7되었습니다.'
+ISLAND_FLY_ENABLED: '&e&lFly | &7섬 비행이 자동으로 &a활성화&7되었습니다.' 
+ISLAND_GOT_DELETED_WHILE_INSIDE: '&e&lIsland | &7&o당신은 해산된 섬 안에 있었기 때문에 스폰으로 다시 순간 이동되었습니다…' 
+ISLAND_GOT_PVP_ENABLED_WHILE_INSIDE: '&e&lIsland | &7&o당신은 pvp가 켜진 섬 안에 있었기 때문에 스폰으로 다시 순간 이동되었습니다…' 
+ISLAND_HELP_FOOTER: '&e&lSuperiorSkyblock &7Ome_R에 의해 개발되었음 [한글화 - Ha2ram17]' 
+ISLAND_HELP_HEADER: '&e&lSuperiorSkyblock &7명령어 목록 [{0}/{1}]:' 
+ISLAND_HELP_LINE: '&e/{0} &f- &7{1}' 
+ISLAND_HELP_NEXT_PAGE: '&e&lSuperiorSkyblock &7다음 페이지를 위해 /is help {0}를 사용하십시오.' 
+ISLAND_INFO_ADMIN_BANK_LIMIT: '&e&lIsland | &7은행 제한: {0}'
+ISLAND_INFO_ADMIN_BLOCKS_LIMITS: |
+  &e&l섬 | &7블록 제한:
+  {0}
+ISLAND_INFO_ADMIN_BLOCKS_LIMITS_LINE: '&e&l섬 | &7 {0}: {1}' 
+ISLAND_INFO_ADMIN_COOP_LIMIT: '&e&l섬 | &7협력 제한: {0}' 
+ISLAND_INFO_ADMIN_CROPS_MULTIPLIER: '&e&l섬 | &7작물 배율: {0}' 
+ISLAND_INFO_ADMIN_DROPS_MULTIPLIER: '&e&l섬 | &7드롭 배율: {0}' 
+ISLAND_INFO_ADMIN_ISLAND_EFFECTS: |
+  &e&l섬 | &7섬 효과:
+  {0}
+ISLAND_INFO_ADMIN_ISLAND_EFFECTS_LINE: '&e&l섬 | &7 {0}: {1}' 
+ISLAND_INFO_ADMIN_ENTITIES_LIMITS: |
+  &e&l섬 | &7엔티티 제한:
+  {0}
+ISLAND_INFO_ADMIN_ENTITIES_LIMITS_LINE: '&e&l섬 | &7 {0}: {1}' 
+ISLAND_INFO_ADMIN_GENERATOR_RATES: |
+  &e&l섬 | &7광산 개수 ({1}):
+  {0}
+ISLAND_INFO_ADMIN_GENERATOR_RATES_LINE: '&e&l섬 | &7 {0}: {1}% ({2})' 
+ISLAND_INFO_ADMIN_ROLE_LIMITS: |
+  &e&l섬 | &7역할 제한:
+  {0}
+ISLAND_INFO_ADMIN_ROLE_LIMITS_LINE: '&e&l섬 | &7 {0}: {1}' 
+ISLAND_INFO_ADMIN_SIZE: '&e&l섬 | &7경계 크기: {0}' 
+ISLAND_INFO_ADMIN_SPAWNERS_MULTIPLIER: '&e&l섬 | &7스포너 배율: {0}' 
+ISLAND_INFO_ADMIN_TEAM_LIMIT: '&e&l섬 | &7팀 제한: {0}' 
+ISLAND_INFO_ADMIN_UPGRADES: |
+  &e&l섬 | &7업그레이드:
+  {0}
+ISLAND_INFO_ADMIN_UPGRADE_LINE: '&e&l섬 | &7 {0}: {1}' 
+ISLAND_INFO_ADMIN_VALUE_SYNCED: '&a∞'
+ISLAND_INFO_ADMIN_WARPS_LIMIT: '&e&l섬 | &7워프 제한: {0}' 
+ISLAND_INFO_BANK: '&e&l섬 | &7은행: {0}' 
+ISLAND_INFO_BONUS: '&e&l섬 | &7가치 보너스: {0}' 
+ISLAND_INFO_BONUS_LEVEL: '&e&l섬 | &7레벨 보너스: {0}'
+ISLAND_INFO_CREATION_TIME: '&e&lIsland | &7생성 시간: {0}' 
+ISLAND_INFO_DISCORD: '&e&lIsland | &7Discord: {0}' 
+ISLAND_INFO_FOOTER: '' ISLAND_INFO_HEADER: '' 
+ISLAND_INFO_LAST_TIME_UPDATED: '&e&lIsland | &7마지막 업데이트 시간: {0} 전' 
+ISLAND_INFO_LAST_TIME_UPDATED_CURRENTLY_ACTIVE: '&e&lIsland | &7마지막 업데이트 시간: &a현재 활성화' 
+ISLAND_INFO_LEVEL: '&e&lIsland | &7레벨: {0}' 
+ISLAND_INFO_LOCATION: '&e&lIsland | &7홈: {0}' 
+ISLAND_INFO_NAME: '&e&lIsland | &7이름: {0}' 
+ISLAND_INFO_OWNER: '&e&lIsland | &7리더: {0}' 
+ISLAND_INFO_PAYPAL: '&e&lIsland | &7Paypal: {0}' 
+ISLAND_INFO_PLAYER_LINE: '&e&lIsland | &7 - {0}' 
+ISLAND_INFO_RATE: '&e&lIsland | &7평가: {0} &7({1}/5) - 총 {2}개의 평가.' 
+ISLAND_INFO_RATE_EMPTY_SYMBOL: '&f✧' 
+ISLAND_INFO_RATE_SYMBOL: '✦' 
+ISLAND_INFO_RATE_ONE_COLOR: '&4' 
+ISLAND_INFO_RATE_TWO_COLOR: '&6' 
+ISLAND_INFO_RATE_THREE_COLOR: '&e' 
+ISLAND_INFO_RATE_FOUR_COLOR: '&a' 
+ISLAND_INFO_RATE_FIVE_COLOR: '&2'
+ISLAND_INFO_ROLES: |
+  &e&l섬 | &7{0}s:
+  {1}
+ISLAND_INFO_VISITORS_COUNT: '&e&l섬 | &7방문자 수: {0}' 
+ISLAND_INFO_WORTH: '&e&l섬 | &7가치: {0}' 
+ISLAND_OPENED: '&e&l섬 | &7공개에서 섬을 성공적으로 열었습니다.' 
+ISLAND_PREVIEW_CANCEL_DISTANCE: '&e&l미리보기 | &7너무 멀리 떨어져 미리보기 모드가 더 이상 아닙니다.' 
+ISLAND_PREVIEW_CANCEL: '&e&l미리보기 | &7당신은 미리보기 모드를 취소했습니다.' 
+ISLAND_PREVIEW_CONFIRM_TEXT: '확인' ISLAND_PREVIEW_CANCEL_TEXT: '취소' 
+ISLAND_PREVIEW_START: |
+  &e&lPreview | &7당신은 스키마틱 {0}에 대한 미리보기 모드를 시작했습니다.
+  &e&lPreview | &7Type &a&l새로운 섬을 만들려면 &a&l확인 &7을 입력하거나, 미리보기 모드를 취소하려면 &c&l취소 &7를 입력하세요.
+  &e&lPreview | &7섬의 영역을 벗어나지 않으면 미리보기 모드가 자동으로 취소됩니다.
+ISLAND_PROTECTED: '&c&l오류 | &7이 섬은 보호됩니다.' 
+ISLAND_PROTECTED_OPPED: '&7&o"/is admin bypass"를 사용하여 이 제한을 우회할 수 있습니다.' 
+ISLAND_TEAM_STATUS_FOOTER: '' 
+ISLAND_TEAM_STATUS_HEADER: '&e&l섬 | &7{0}의 섬 구성원들 &8[&e{1}&8/&e{2}&8]&7:' 
+ISLAND_TEAM_STATUS_OFFLINE: '&c(오프라인)' 
+ISLAND_TEAM_STATUS_ONLINE: '&a(온라인)'
+ISLAND_TEAM_STATUS_ROLES: '&e&l섬 | &7 * [{0}] {1} {2} &7({3})' 
+ISLAND_TOP_STATUS_OFFLINE: '&c(오프라인)' 
+ISLAND_TOP_STATUS_ONLINE: '&a(온라인)' 
+ISLAND_WARP_PUBLIC: '' 
+ISLAND_WARP_PRIVATE: '&c[비공개]'
+ISLAND_WAS_CLOSED: '&e&lIsland | &7&o섬이 닫혔고 당신은 스폰으로 다시 순간이동되었습니다…' 
+ISLAND_WORTH_ERROR: '&c&lError | &7섬을 계산하는 동안 예기치 않은 오류가 발생했습니다. 문제가 지속되면 관리자에게 문의하십시오.' 
+ISLAND_WORTH_RESULT: '&e&lIsland | &7당신의 섬 가치는 {0} [레벨 {1}]' 
+ISLAND_WORTH_TIME_OUT: '&c&lError | &7계산 작업이 시간 초과되었습니다. 나중에 다시 시도하십시오…' 
+JOIN_ADMIN_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 당신의 섬에 참여했습니다.' 
+JOIN_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 당신의 섬에 참여했습니다.' 
+JOIN_FULL_ISLAND: '&c&lError | &7이 섬은 허용된 최대 인원에 도달했습니다.' 
+JOIN_WHILE_IN_ISLAND: '&c&lError | &7당신은 이미 섬 안에 있습니다.' 
+JOINED_ISLAND: '&e&lIsland | &7당신은 {0}의 섬에 참여했습니다.' 
+JOINED_ISLAND_NAME: '&e&lIsland | &7당신은 {0} 섬에 참여했습니다.' 
+JOINED_ISLAND_AS_COOP: '&e&lIsland | &7당신은 이제 {0}의 섬의 협력 회원입니다.' 
+JOINED_ISLAND_AS_COOP_NAME: '&e&lIsland | &7당신은 이제 {0} 섬의 협력 회원입니다.' 
+KICK_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) {1}에 의해 섬에서 추방되었습니다.' 
+KICK_ISLAND_LEADER: '&c&lError | &7섬의 리더를 추방할 수 없습니다. 대신 /is admin disband를 사용하십시오.' 
+KICK_PLAYERS_WITH_LOWER_ROLE: '&c&lError | &7당신보다 낮은 섬 역할을 가진 플레이어만 추방할 수 있습니다.' 
+LACK_CHANGE_PERMISSION: '&c&lError | &7다른 역할로 변경하려면 이 권한이 있어야 합니다.' 
+LAST_ROLE_DEMOTE: '&c&lError | &7이 플레이어를 더 이상 강등할 수 없습니다.' 
+LAST_ROLE_PROMOTE: '&c&lError | &7이 플레이어를 더 이상 승진시킬 수 없습니다.' 
+LEAVE_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 섬을 떠났습니다.'LEAVE_ISLAND_AS_LEADER: |-
+  &c&lError | &7당신이 소유한 섬을 떠날 수 없습니다.
+  &c&lError | &7/is transfer를 사용하여 소유권을 이전할 수 있습니다.
+LEFT_ISLAND: '&e&lIsland | &7당신은 섬을 떠났습니다.' LEFT_ISLAND_COOP: '&e&lIsland | &7당신은 더 이상 {0}의 섬의 협력 회원이 아닙니다.' 
+LEFT_ISLAND_COOP_NAME: '&e&lIsland | &7당신은 더 이상 {0} 섬의 협력 회원이 아닙니다.' 
+MATERIAL_NOT_SOLID: '&c&lError | &7반드시 단단한 재료를 제공해야 합니다.' 
+MAXIMUM_LEVEL: '&c&lError | &7이 업그레이드의 최대 레벨은 {0}입니다.' 
+MESSAGE_SENT: '&e&lIsland | &7성공적으로 {0}에게 메시지를 전송했습니다!' 
+MISSION_CANNOT_COMPLETE: '&c&lError | &7아직 이 임무를 완료할 수 없습니다.' 
+MISSION_NO_AUTO_REWARD: '&e&lMission | &7{0}을 완료하기 위해 필요한 모든 재료가 있습니다 - /is missions를 사용하여 완료하십시오!' 
+MISSION_NOT_COMPLETE_REQUIRED_MISSIONS: '&c&lError | &7이 임무를 완료하기 전에 {0}을 완료해야 합니다.' 
+MISSION_STATUS_COMPLETE: '&e&lMission | &7{1}의 임무 {0}의 상태를 완료로 변경했습니다.' 
+MISSION_STATUS_COMPLETE_ALL: '&e&lMission | &7{0}의 모든 임무의 상태를 완료로 변경했습니다.' 
+MISSION_STATUS_RESET: '&e&lMission | &7{1}의 임무 {0}의 상태를 초기화했습니다.' 
+MISSION_STATUS_RESET_ALL: '&e&lMission | &7{0}의 모든 임무의 상태를 초기화했습니다.' 
+MODULE_ALREADY_INITIALIZED: '&e&lModule | &7이 모듈은 이미 로드되었습니다.' 
+MODULE_INFO: |
+  &e&lModule | &7{0} by {1}
+  &e&lModule | &7&m--------------------
+  &e&lModule | &7{2} 
+MODULE_LOADED_SUCCESS: '&e&lModule | &7모듈 {0}을 성공적으로 로드했습니다.' 
+MODULE_LOADED_FAILURE: '&e&lModule | &7모듈 {0}을 로드하지 못했습니다. 자세한 정보는 콘솔을 확인하십시오.'
+MODULE_UNLOADED_SUCCESS: '&e&lModule | &7모듈을 성공적으로 언로드했습니다.' 
+MODULES_LIST: '&f모듈 ({0}): {1}' 
+MODULES_LIST_MODULE_NAME: '&a{0}' 
+MODULES_LIST_SEPARATOR: '&f, ' 
+NAME_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 섬 이름을 {1}(으)로 변경했습니다.' 
+NAME_BLACKLISTED: '&c&lError | &7그 이름을 사용할 수 없습니다.' 
+NAME_CHAT_FORMAT: '&8[&e{0}&8] &r' 
+NAME_SAME_AS_PLAYER: '&c&lError | &7섬 이름으로 플레이어 이름을 사용할 수 없습니다.' 
+NAME_TOO_LONG: '&c&lError | &7섬 이름은 16자 이상이 될 수 없습니다.' 
+NAME_TOO_SHORT: '&c&lError | &7섬 이름은 3자 미만이 될 수 없습니다.' 
+NO_BAN_PERMISSION: '&c&lError | &7플레이어를 차단하려면 최소한 {0}이어야 합니다.' 
+NO_CLOSE_BYPASS: '&c&lError | &7이 섬은 일반인에게 개방되지 않았습니다.' 
+NO_CLOSE_PERMISSION: '&c&lError | &7섬을 일반인에게 닫으려면 최소한 {0}이어야 합니다.' 
+NO_COMMAND_PERMISSION: '&f알 수 없는 명령입니다. 도움말을 보려면 "/help"를 입력하십시오.' 
+NO_COOP_PERMISSION: '&c&lError | &7협력 회원으로 플레이어를 추가하려면 최소한 {0}이어야 합니다.' 
+NO_DELETE_WARP_PERMISSION: '&c&lError | &7워프를 삭제하려면 최소한 {0}이어야 합니다.' 
+NO_DEMOTE_PERMISSION: '&c&lError | &7플레이어를 강등하려면 최소한 {0}이어야 합니다.' 
+NO_DEPOSIT_PERMISSION: '&c&lError | &7섬 은행에 돈을 입금하려면 최소한 {0}이어야 합니다.' 
+NO_DISBAND_PERMISSION: '&c&lError | &7섬을 해체하려면 최소한 {0}이어야 합니다.' 
+NO_EXPEL_PERMISSION: '&c&lError | &7당신의 섬에서 플레이어를 추방하려면 최소한 {0}이어야 합니다.' 
+NO_INVITE_PERMISSION: '&c&lError | &7플레이어를 초대하려면 최소한 {0}이어야 합니다.' 
+NO_ISLAND_CHEST_PERMISSION: '&c&lError | &7섬의 상자에 접근하려면 최소한 {0}이어야 합니다.' 
+NO_ISLAND_INVITE: '&c&lError | &7이 섬에서 초대장을 찾을 수 없습니다.' 
+NO_ISLANDS_TO_PURGE: '&c&lError | &7청소할 섬이 없었습니다.'
+NO_KICK_PERMISSION: '&c&lError | &7플레이어를 추방하려면 최소한 {0}이어야 합니다.' 
+NO_MORE_DISBANDS: '&c&lError | &7더 이상 섬을 해체할 수 없습니다.' 
+NO_MORE_WARPS: '&c&lError | &7당신의 섬은 더 이상 워프를 가질 수 없습니다.' 
+NO_NAME_PERMISSION: '&c&lError | &7당신은 섬 이름을 변경할 수 없습니다.' 
+NO_OPEN_PERMISSION: '&c&lError | &7섬을 일반인에게 개방하려면 최소한 {0}이어야 합니다.' 
+NO_PERMISSION_CHECK_PERMISSION: '&c&lError | &7권한에 대한 정보를 얻으려면 최소한 {0}이어야 합니다.' 
+NO_PROMOTE_PERMISSION: '&c&lError | &7플레이어를 승진시키려면 최소한 {0}이어야 합니다.' 
+NO_RANKUP_PERMISSION: '&c&lError | &7업그레이드를 랭크업하려면 최소한 {0}이어야 합니다.' 
+NO_RATINGS_PERMISSION: '&c&lError | &7등급을 확인하려면 최소한 {0}이어야 합니다.' 
+NO_SET_BIOME_PERMISSION: '&c&lError | &7섬 생물군계를 변경하려면 최소한 {0}이어야 합니다.' 
+NO_SET_DISCORD_PERMISSION: '&c&lError | &7섬 디스코드를 변경하려면 최소한 {0}이어야 합니다.' 
+NO_SET_HOME_PERMISSION: '&c&lError | &7섬의 순간이동 위치를 설정하려면 최소한 {0}이어야 합니다.' 
+NO_SET_PAYPAL_PERMISSION: '&c&lError | &7섬 페이팔 이메일을 변경하려면 최소한 {0}이어야 합니다.' 
+NO_SET_ROLE_PERMISSION: '&c&lError | &7플레이어의 역할을 설정하려면 최소한 {0}이어야 합니다.' 
+NO_SET_SETTINGS_PERMISSION: '&c&lError | &7섬 설정을 변경하려면 최소한 {0}이어야 합니다.' 
+NO_SET_WARP_PERMISSION: '&c&lError | &7섬 워프를 설정하려면 최소한 {0}이어야 합니다.' 
+NO_TRANSFER_PERMISSION: '&c&lError | &7리더십을 이전하려면 섬의 리더여야 합니다.'
+NO_UNCOOP_PERMISSION: '&c&l오류 | &7{0} 이상이어야만 협력 멤버를 제거할 수 있습니다.' 
+NO_UPGRADE_PERMISSION: '&c&l오류 | &7다른 레벨로 업그레이드 할 권한이 없습니다.' 
+NO_WITHDRAW_PERMISSION: '&c&l오류 | &7{0} 이상이어야만 섬 은행에서 돈을 인출할 수 있습니다.' 
+NOT_ENOUGH_MONEY_TO_DEPOSIT: '&c&l오류 | &7섬 은행에 {0} 달러를 입금할 충분한 돈이 없습니다.' 
+NOT_ENOUGH_MONEY_TO_UPGRADE: '&c&l오류 | &7충분한 돈이 없습니다.' 
+NOT_ENOUGH_MONEY_TO_WARP: '&c&l오류 | &7섬 워프를 사용하기에 충분한 돈이 없습니다.' 
+OPEN_MENU_WHILE_SLEEPING: '&7&o메뉴와 상호작용하는 것은 너무 피곤하지 않나요?' 
+PANEL_TOGGLE_OFF: |-
+  &e&lPanel | &7섬 패널을 &cOFF&7로 전환했습니다.
+  &e&lPanel | &7/is를 실행하면 섬으로 이동합니다.
+PANEL_TOGGLE_ON: |-
+  &e&lPanel | &7섬 패널을 &aON&7로 전환했습니다.
+  &e&lPanel | &7/is를 실행하면 패널이 열립니다.
+PERMISSION_CHANGED: '&e&l섬 | &7{1}의 섬의 권한 {0}을 성공적으로 업데이트했습니다.' 
+PERMISSION_CHANGED_NAME: '&e&l섬 | &7섬 {1}의 권한 {0}을 성공적으로 업데이트했습니다.' 
+PERMISSION_CHANGED_ALL: '&e&l섬 | &7모든 섬의 권한 {0}을 성공적으로 업데이트했습니다.'
+PERSISTENT_DATA_EMPTY: '&c&lError | &7당신의 쿼리에 대한 데이터가 없습니다.' 
+PERSISTENT_DATA_MODIFY: '&e&lData | &7{0}에 대한 데이터를 {1}: {2}로 성공적으로 설정했습니다.' 
+PERSISTENT_DATA_SHOW: '&e&lData | &7{0}의 데이터: &f{{1}}' 
+PERSISTENT_DATA_SHOW_PATH: '&b{0}&f: ' 
+PERSISTENT_DATA_SHOW_SPACER: '&f, ' 
+PERSISTENT_DATA_SHOW_VALUE: '&6{0}&c{1}&f' 
+PERSISTENT_DATA_REMOVED: '&e&lData | &7{0}의 경로 {1}에서 데이터를 성공적으로 제거했습니다.' 
+PERMISSIONS_RESET_PLAYER: '&e&lIsland | &7{0}의 모든 권한을 기본값으로 성공적으로 재설정했습니다!' 
+PERMISSIONS_RESET_ROLES: '&e&lIsland | &7섬의 모든 권한을 기본값으로 성공적으로 재설정했습니다!' 
+PLACEHOLDER_NO: '아니오' 
+PLACEHOLDER_YES: '예' 
+PLAYER_ALREADY_BANNED: '&c&lError | &7이 플레이어는 이미 차단되었습니다.' 
+PLAYER_ALREADY_COOP: '&c&lError | &7이 플레이어는 이미 협력 회원입니다.' 
+PLAYER_ALREADY_IN_ISLAND: '&c&lError | &7이 플레이어는 이미 섬 안에 있습니다.' 
+PLAYER_ALREADY_IN_ROLE: '&c&lError | &7{0}은(는) 이미 {1}입니다.' 
+PLAYER_EXPEL_BYPASS: '&c&lError | &7이 사용자는 섬에서 추방될 수 없습니다.' 
+PLAYER_JOIN_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 서버에 참여했습니다.'
+PLAYER_NOT_BANNED: '&c&l오류 | &7이 플레이어는 차단되지 않았습니다.' 
+PLAYER_NOT_COOP: '&c&l오류 | &7이 플레이어는 협력하지 않습니다.' 
+PLAYER_NOT_INSIDE_ISLAND: '&c&l오류 | &7이 플레이어는 섬 안에 없습니다.' 
+PLAYER_NOT_ONLINE: '&c&l오류 | &7이 플레이어는 온라인 상태가 아닙니다!' 
+PLAYER_QUIT_ANNOUNCEMENT: '&e&l섬 | &7{0}이 서버에서 나갔습니다.' 
+PROMOTE_PLAYERS_WITH_LOWER_ROLE: '&c&l오류 | &7당신보다 낮은 섬 역할을 가진 플레이어만 승진시킬 수 있습니다.' 
+PROMOTED_MEMBER: '&e&l섬 | &7당신은 {0}을 그의 섬에서 {1}로 승진시켰습니다.' 
+PURGE_CLEAR: '&e&l섬 | &7성공적으로 모든 대기 중인 섬을 제거했습니다.'
+PURGED_ISLANDS: |-
+  &e&lIsland | &7서버가 재시작될 때 {0}개의 섬이 제거됩니다.
+  &e&lIsland | &7/is admin purge cancel을 사용하여 언제든지 취소할 수 있습니다. 
+RANKUP_SUCCESS: '&e&l섬 | &7{1}의 섬의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.' 
+RANKUP_SUCCESS_ALL: '&e&l섬 | &7모든 섬의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.' 
+RANKUP_SUCCESS_NAME: '&e&l섬 | &7{1}의 업그레이드 {0} 레벨을 성공적으로 업데이트했습니다.' 
+RATE_ANNOUNCEMENT: '&e&l섬 | &7{0}이 당신의 섬을 5점 만점 중 {1}점으로 평가했습니다!.' 
+RATE_CHANGE_OTHER: '&e&l섬 | &7당신은 {0}의 평가를 {1}로 변경했습니다.' 
+RATE_OWN_ISLAND: '&c&l오류 | &7자신의 섬을 평가할 수 없습니다.' 
+RATE_REMOVE_ALL: '&e&l섬 | &7{0}의 모든 평가를 성공적으로 제거했습니다.'
+RATE_REMOVE_ALL_ISLANDS: '&e&lIsland | &7모든 섬의 모든 평가를 성공적으로 제거했습니다.' 
+RATE_SUCCESS: '&e&lIsland | &7당신은 이 섬에 {0}개의 별로 평가했습니다!' 
+REACHED_BLOCK_LIMIT: '&e&lUpgrades | &7{0} 블록에 대한 섬의 한도에 도달했습니다.' 
+RECALC_ALREADY_RUNNING: '&c&lError | &7당신의 섬은 이미 다시 계산 중입니다.' 
+RECALC_ALREADY_RUNNING_OTHER: '&c&lError | &7이 섬은 이미 다시 계산 중입니다.' 
+RECALC_ALL_ISLANDS: '&e&lIsland | &7모든 섬을 다시 계산 중…' 
+RECALC_ALL_ISLANDS_DONE: '&e&lIsland | &7모든 섬의 다시 계산을 성공적으로 완료했습니다.' 
+RECALC_PROCCESS_REQUEST: '&e&lIsland | &7당신의 요청을 처리 중…' 
+RELOAD_COMPLETED: '&e&lIsland | &7재로드가 완료되었습니다!' 
+RELOAD_PROCCESS_REQUEST: '&e&lIsland | &7구성을 다시 로드하기 시작합니다…' 
+REVOKE_INVITE_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) {1}에게 섬 초대를 철회했습니다.' 
+RESET_WORLD_SUCCEED: '&e&lIsland | &7{1}의 섬에 대한 {0} 세계를 성공적으로 재설정했습니다.' 
+RESET_WORLD_SUCCEED_ALL: '&e&lIsland | &7모든 섬에 대한 {0} 세계를 성공적으로 재설정했습니다.' 
+RESET_WORLD_SUCCEED_NAME: '&e&lIsland | &7{1}에 대한 {0} 세계를 성공적으로 재설정했습니다.' 
+SAME_NAME_CHANGE: '&c&lError | &7당신은 현재 섬 이름과 다른 이름을 입력해야 합니다.' 
+SCHEMATIC_LEFT_SELECT: '&e&lSchematics | &7위치 #2 선택 ({0})' 
+SCHEMATIC_NOT_READY: '&c&lError | &7두 개의 위치를 선택하지 않았습니다.'
+SCHEMATIC_PROCCESS_REQUEST: '&e&lSchematics | &7당신의 요청을 처리 중…'
+SCHEMATIC_READY_TO_CREATE: |
+  &e&lSchematics | &7두 개의 위치를 선택했습니다. /is admin schematic <name>을 실행하여 새 스키마틱을 만드십시오.
+  &e&lSchematics | &7명령을 실행할 때 순간이동 위치에 서 있는지 확인하십시오. 
+SCHEMATIC_RIGHT_SELECT: '&e&lSchematics | &7위치 #1 선택 ({0})' 
+SCHEMATIC_SAVED: '&e&lSchematics | &7스키마틱을 성공적으로 저장했습니다!' 
+SELF_ROLE_CHANGE: '&c&lError | &7당신은 자신의 역할을 변경할 수 없습니다.' 
+SET_UPGRADE_LEVEL: '&e&lUpgrades | &7{1}의 섬에 대한 {0}의 레벨을 성공적으로 업데이트했습니다.' 
+SET_UPGRADE_LEVEL_NAME: '&e&lUpgrades | &7{1}에 대한 {0}의 레벨을 성공적으로 업데이트했습니다.' 
+SET_WARP: '&e&lIsland | &7{0}에서 새 워프를 성공적으로 만들었습니다.' 
+SET_WARP_OUTSIDE: '&c&lError | &7당신은 섬 밖에서 워프를 설정할 수 없습니다.' 
+SETTINGS_UPDATED: '&e&lIsland | &7{1}의 섬에 대한 설정 {0}을 성공적으로 업데이트했습니다.' 
+SETTINGS_UPDATED_NAME: '&e&lIsland | &7섬 {1}에 대한 설정 {0}을 성공적으로 업데이트했습니다.' 
+SETTINGS_UPDATED_ALL: '&e&lIsland | &7모든 섬에 대한 설정 {0}을 성공적으로 업데이트했습니다.' 
+SIZE_BIGGER_MAX: '&c&lError | &7최대 섬 크기보다 큰 크기를 설정할 수 없습니다.' 
+SPAWN_TELEPORT_SUCCESS: '&e&lSpawn | &7{0}을(를) 스폰으로 성공적으로 순간이동했습니다.' 
+SPAWN_SET_SUCCESS: '&e&lSpawn | &7스폰 위치를 {0}(으)로 성공적으로 업데이트했습니다.' 
+SPY_TEAM_CHAT_FORMAT: '&7[Spy] &e[{0}] {1}&f: &7{2}' 
+SYNC_UPGRADES: '&e&lUpgrades | &7{0}의 섬의 모든 업그레이드 값을 성공적으로 동기화했습니다.' 
+SYNC_UPGRADES_ALL: '&e&lUpgrades | &7모든 섬의 모든 업그레이드 값을 성공적으로 동기화했습니다.' 
+SYNC_UPGRADES_NAME: '&e&lUpgrades | &7{0}의 모든 업그레이드 값을 성공적으로 동기화했습니다.'
+TEAM_CHAT_FORMAT: '&e[{0}] {1}&f: &7{2}' 
+TELEPORT_LOCATION_OUTSIDE_ISLAND: '&c&l오류 | &7당신은 섬 안에 있지 않습니다.' 
+TELEPORT_OUTSIDE_ISLAND: '&c&l오류 | &7보호 범위 밖으로 이동할 수 없습니다.' 
+TELEPORT_WARMUP: '&7&o{0} 후에 이동합니다… 움직이지 마세요!' 
+TELEPORT_WARMUP_CANCEL: '&7&o움직여서 이동이 취소되었습니다.' 
+TITLE_SENT: '&e&l섬 | &7성공적으로 {0}에게 제목을 전송했습니다!' 
+TELEPORTED_FAILED: '&e&l섬 | &7이 섬에 안전한 블록이 없는 것 같습니다. 스태프 멤버에게 문의하세요.' 
+TELEPORTED_SUCCESS: '&e&l섬 | &7당신은 섬으로 이동했습니다.' 
+TELEPORTED_TO_WARP: '&e&l섬 | &7성공적으로 이 섬 워프로 이동했습니다.' 
+TELEPORTED_TO_WARP_ANNOUNCEMENT: '&e&l섬 | &7플레이어 {0}이 섬 워프 {1}로 이동했습니다.' 
+TOGGLED_BYPASS_OFF: '&e&l바이패스 | &7바이패스 모드를 &cOFF&7로 전환했습니다.' 
+TOGGLED_BYPASS_ON: '&e&l바이패스 | &7바이패스 모드를 &aON&7로 전환했습니다.' 
+TOGGLED_FLY_OFF: '&e&lFly | &7섬 비행을 &cOFF&7로 전환했습니다.' 
+TOGGLED_FLY_ON: '&e&lFly | &7섬 비행을 &aON&7로 전환했습니다.' 
+TOGGLED_SCHEMATIC_OFF: '&e&l스케마틱 | &7스케마틱 모드를 &cOFF&7로 전환합니다.' 
+TOGGLED_SCHEMATIC_ON: |-
+  &e&lSchematics | &7스케마틱 모드를 &aON&7로 전환합니다.
+  &e&lSchematics | &7황금 도끼를 사용하여 영역을 선택하세요.
+TOGGLED_SPY_OFF: '&e&lSpy | &7스파이 채팅을 &cOFF&7로 전환합니다.' 
+TOGGLED_SPY_ON: '&e&lSpy | &7스파이 채팅을 &aON&7로 전환합니다.' 
+TOGGLED_STACKED_BLOCKS_OFF: '&e&lStacker | &7블록 스택을 &cOFF&7로 전환합니다.'
+TOGGLED_STACKED_BLOCKS_ON: '&e&lStacker | &7블록 스택을 &a켭니다&7.' 
+TOGGLED_TEAM_CHAT_OFF: '&e&lChat | &7팀 채팅을 &c끕니다&7.' 
+TOGGLED_TEAM_CHAT_ON: '&e&lChat | &7팀 채팅을 &a켭니다&7.' 
+TOGGLED_WORLD_BORDER_OFF: '&e&lBorder | &7월드 경계를 &c끕니다&7.' 
+TOGGLED_WORLD_BORDER_ON: '&e&lBorder | &7월드 경계를 &a켭니다&7.' 
+TRANSFER_ADMIN: '&e&lIsland | &7당신은 {0}의 리더십을 {1}(으)로 이전했습니다.' 
+TRANSFER_ADMIN_ALREADY_LEADER: '&c&lError | &7{0}은(는) 이미 섬의 리더입니다.' 
+TRANSFER_ADMIN_DIFFERENT_ISLAND: '&c&lError | &7이 플레이어들은 같은 섬에 있지 않습니다.' 
+TRANSFER_ADMIN_NOT_LEADER: '&c&lError | &7이 플레이어는 섬의 리더가 아닙니다.' 
+TRANSFER_ALREADY_LEADER: '&c&lError | &7당신은 이미 이 섬의 리더입니다.' 
+TRANSFER_BROADCAST: '&e&lIsland | &7섬의 리더십이 {0}(으)로 이전되었습니다.' 
+UNBAN_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) {1}에 의해 섬에서 차단 해제되었습니다.' 
+UNCOOP_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) {1}을(를) 협력 회원에서 제거했습니다.' 
+UNCOOP_AUTO_ANNOUNCEMENT: '&e&lIsland | &7온라인인 섬 회원이 없으므로 자동으로 협력 회원에서 제외되었습니다.' 
+UNCOOP_LEFT_ANNOUNCEMENT: '&e&lIsland | &7{0}이(가) 게임을 떠나고 더 이상 협력 회원이 아닙니다.' 
+UNIGNORED_ISLAND: '&e&lIsland | &7{0}의 섬이 이제 최고의 섬에서 무시되지 않습니다.' 
+UNIGNORED_ISLAND_NAME: '&e&lIsland | &7섬 {0}이 이제 최고의 섬에서 무시되지 않습니다.' 
+UNLOCK_WORLD_ANNOUNCEMENT: '&e&lWorlds | &7당신의 {0} 세계가 이제 잠금 해제되었습니다!' 
+UNSAFE_WARP: '&e&lIsland | &7&o이 워프는 안전하지 않은 것 같습니다. 다른 워프를 시도하십시오.' 
+UPDATED_PERMISSION: '&e&lIsland | &7{0}에 대한 권한을 업데이트했습니다.' 
+UPDATED_SETTINGS: '&e&lIsland | &7섬 설정 {0}을 업데이트했습니다.' 
+UPGRADE_COOLDOWN_FORMAT: '&c&lError | &7다시 업그레이드할 수 있을 때까지 {0} 남았습니다.' 
+VISITOR_BLOCK_COMMAND: '&c&lError | &7다른 섬에서 그 명령을 사용할 수 없습니다.' 
+WARP_ALREADY_EXIST: '&c&lError | &7이미 그 이름의 워프가 있습니다.'
+WARP_CATEGORY_ICON_NEW_LORE: |
+  &e&lWarps | &7새로운 설명을 입력하세요 (취소하려면 “-cancel"을 입력하세요):
+  &e&lWarps | &7”\n"을 사용하여 줄을 구분할 수 있습니다.
+WARP_CATEGORY_ICON_NEW_NAME: '&e&l워프 | &7이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):' 
+WARP_CATEGORY_ICON_NEW_TYPE: '&e&l워프 | &7새로운 재료 유형을 입력하세요 (취소하려면 "-cancel"을 입력하세요):' 
+WARP_CATEGORY_ICON_UPDATED: '&e&l워프 | &7카테고리 아이콘이 성공적으로 업데이트되었습니다.' 
+WARP_CATEGORY_ILLEGAL_NAME: '&c&l오류 | &7워프 카테고리 이름은 비어 있을 수 없습니다.' 
+WARP_CATEGORY_NAME_TOO_LONG: '&c&l오류 | 워프 카테고리 이름은 255자보다 길 수 없습니다.' 
+WARP_CATEGORY_SLOT: '&e&l워프 | &7새로운 슬롯을 입력하세요 (취소하려면 "-cancel"을 입력하세요):' 
+WARP_CATEGORY_SLOT_ALREADY_TAKEN: '&c&l오류 | &7이 슬롯은 다른 카테고리에서 이미 사용 중입니다.' 
+WARP_CATEGORY_SLOT_SUCCESS: '&e&l워프 | &7카테고리의 슬롯이 성공적으로 {0}으로 변경되었습니다.' 
+WARP_CATEGORY_RENAME: '&e&l워프 | &7새로운 이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):' 
+WARP_CATEGORY_RENAME_ALREADY_EXIST: '&c&l오류 | &7이 이름은 다른 카테고리에서 이미 사용 중입니다.' 
+WARP_CATEGORY_RENAME_SUCCESS: '&e&l워프 | &7카테고리가 성공적으로 {0}으로 이름이 변경되었습니다.' 
+WARP_ICON_NEW_LORE: |
+  &e&lWarps | &7새로운 설명을 입력하세요 (취소하려면 “-cancel"을 입력하세요):
+  &e&lWarps | &7”\n"을 사용하여 줄을 구분할 수 있습니다.
+WARP_ICON_NEW_NAME: '&e&l워프 | &7이름을 입력하세요 (취소하려면 "-cancel"을 입력하세요):' 
+WARP_ICON_NEW_TYPE: '&e&l워프 | &7새로운 재료 유형을 입력하세요 (취소하려면 "-cancel"을 입력하세요):'
 WARP_ICON_UPDATED: '&e&l워프 | &7워프 아이콘이 성공적으로 업데이트 되었습니다.'
 WARP_ILLEGAL_NAME: '&c&l오류 | &7워프 이름은 비어 있을 수 없습니다.'
 WARP_LOCATION_UPDATE: '&e&l워프 | &7워프 위치가 성공적으로 당신의 위치로 업데이트 되었습니다.'
@@ -709,3 +759,4 @@ WITHDRAWN_MONEY: '&e&l은행 | &7{1}님의 섬 은행에서 ${0}을(를) 인출�
 WITHDRAWN_MONEY_NAME: '&e&l은행 | &7{1}님의 섬 은행에서 ${0}을(를) 인출하였습니다!'
 WORLD_NOT_ENABLED: '&e&l월드 | &7이 월드는 서버에서 활성화되어 있지 않습니다.'
 WORLD_NOT_UNLOCKED: '&e&l월드 | &7{0} 월드는 아직 잠겨있습니다!'
+
