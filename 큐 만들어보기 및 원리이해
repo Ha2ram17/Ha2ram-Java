@@ -1,0 +1,70 @@
+package haeram;
+
+import java.util.NoSuchElementException;
+
+class Queue<T> {
+	
+	class Node<T> {
+		private T data;
+		private Node<T> next;
+		
+		public Node(T data) {
+			this.data=data;
+		}
+	}
+	private Node<T> first; //노드 선언
+	private Node<T> last; //""
+	
+	public void add(T item) { //add(), 큐에 값을 추가하는 메소드 선언
+		Node<T> t = new Node<T>(item);
+		
+		if (last != null) {
+			last.next=t;
+		}
+		last= t;
+		if (first == null) { //만약 큐가 비어있는 경우, first라는 프론트를 이번에 추가한 값에 할당
+			first = last;
+		}
+	}
+	public T remove() { //remove()라는 큐에서 가장 먼저 삽입된 값을 제거하는 메소드
+		if (first == null) {
+			throw new NoSuchElementException(); //큐에 값이 없는 경우, 제거할 수 없음으로 예외처리
+		}
+		T data = first.data;
+		first = first.next;
+		
+		if (first == null) {
+			last = null;
+		}
+		return data;
+	}
+	public T peek() { //peek()큐에서 가장 먼저 있는 값을 확인하는 메소드
+		if (first==null) {
+			throw new NoSuchElementException(); //큐에 값이 없는 경우, 제거할 수 없음으로 예외처리
+		}
+		return first.data; //first data를 추출하는 코드
+	}
+	public boolean isEmpty() { //isEmpty(),이 큐가 비었는가?를 물어보는 메소드
+		return first == null; //큐는 선입선출 구조이므로 first 값이 null인지 체크하고 큐가 비었는지를 체크함.
+	}
+}
+public class haeram {
+
+	public static void main(String[] args) {
+		Queue<Integer> q = new Queue<Integer>(); //q라는 큐를 새로 생성
+		q.add(1); //q라는 큐에 add()메소드를 사용하여 1이라는 값을 추가.
+		q.add(2); //q라는 큐에 add()메소드를 사용하여 2이라는 값을 추가.
+		q.add(3); //큐는 선입선출(FIFO)방식이므로, 앞서 추가한 1, 2, 3이 큐라는 줄에 나열됨.
+		q.add(4); //""
+		System.out.println(q.remove()); //q라는 큐에서 first 값을 제거하고, 이를 출력함.
+		System.out.println(q.remove());
+		System.out.println(q.peek()); //q라는 큐에서 first 값을 확인하고, 이를 출력함
+		System.out.println(q.remove());
+		System.out.println(q.isEmpty()); //q라는 큐가 비었는지를 확인하고, 판별한 값을 False와 True로 이를 출력함
+		System.out.println(q.peek());
+		System.out.println(q.remove());
+		System.out.println(q.isEmpty());
+		
+	}
+
+}
