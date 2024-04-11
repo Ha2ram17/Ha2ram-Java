@@ -1,0 +1,28 @@
+package harga;
+
+import java.util.Scanner;
+
+public class favbz {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = 18;
+		int[] arr = new int[10];
+		
+		arr[0] = num%2;
+		num=num/2;
+		arr[1] = num%2;
+		num=num/2;
+		arr[2] = num%2;
+		num=num/2;
+		arr[3] = num%2;
+		num=num/2;
+		System.out.print(arr[0]);
+		System.out.print(arr[1]);
+		System.out.print(arr[2]);
+		System.out.print(arr[3]);
+		
+	}
+
+}
