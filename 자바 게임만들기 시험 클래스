@@ -6,6 +6,28 @@ public class pc {
 	int 체력;
 	int 마나;
 	
+	int 주현맘공격력;
+	int 주현맘마나;
+	int 주현맘체력;
+	//스탯 선언
+	public int get주현맘공격력() {
+		return 주현맘공격력;
+	}
+	public void set주현맘공격력(int 주현맘공격력) {
+		this.주현맘공격력 = 주현맘공격력;
+	}
+	public int get주현맘마나() {
+		return 주현맘마나;
+	}
+	public void set주현맘마나(int 주현맘마나) {
+		this.주현맘마나 = 주현맘마나;
+	}
+	public int get주현맘체력() {
+		return 주현맘체력;
+	}
+	public void set주현맘체력(int 주현맘체력) {
+		this.주현맘체력 = 주현맘체력;
+	}
 	public String get이름() {
 		return 이름;
 	}
@@ -31,10 +53,22 @@ public class pc {
 		this.마나 = 마나;
 	}
 	//메소드(행동)
-	void 공격(pc g) {
-		System.out.printf("%s가 %s를 공격합니다.\n",이름,g.이름);
-		g.체력 -= 공격력;
-		System.out.printf("%s의 체력이 %d가 되었습니다.\n",h.이름,h.체력);
+	void 공격(String g, int j, String v, int b) { //이름, 공격력 - 몬스터 이름, 몬스터 체력
+		System.out.printf("%s가 %s를 공격합니다.\n",g,v);
+		b -= j;
+		System.out.printf("%s의 체력이 %s가 되었습니다.\n",v,b);
+		set주현맘체력(b);
 	}
+	
+	void skill_1(String 이름, int 마나, int 주현맘체력) {
+		System.out.printf("%s이(가) 주현맘을 공격합니다.\n",이름);
+		마나 -= 30;;
+		주현맘체력 -= 40;
+		set마나(마나);
+		set주현맘체력(주현맘체력);
+		System.out.println("마나를 30 사용했습니다.");
+		System.out.printf("몬스터 주현맘의 체력은 %d남았습니다.",주현맘체력);
+		System.out.println();
+		}
 	
 }
