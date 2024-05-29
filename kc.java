@@ -1,0 +1,143 @@
+package jdbc;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class kc {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Random rd = new Random();
+		boolean s1 = false;
+		boolean s2 = false;
+		boolean s3 = false;
+		int io = 3;
+		pc k1 = new pc();
+		item it1 = new item();
+		while(true) {
+		System.out.println("닉네임을 입력해주십시오.");
+		k1.set이름(sc.next());
+		System.out.printf("네 이름이 %s(이)가 맞습니까?",k1.get이름());
+		System.out.println();
+		System.out.println("맞다면 Y를 눌러주십시오.");
+		System.out.println("입력이 Y가 아니라면, '아니오'로 간주하고 닉네임을 재입력받습니다.");
+		String nick = sc.next();
+		if(nick.equals("Y")||nick.equals("ㅛ")||nick.equals("y")) {
+			System.out.println("닉네임이 확인되었습니다.");
+			break;
+		}
+		else {
+			System.out.println("닉네임을 다시 정해주십시오.");
+		}
+		}
+		System.out.println("초기 스탯이 결정됩니다. 스탯이 마음에 들지 않을 시, 3번의 재설정 기회가 주어집니다.");
+		while(true) {
+				System.out.println("초기 공격력 스탯이 20에서 50중 랜덤으로 결정됩니다.");
+				k1.set공격력(rd.nextInt(20,50));
+				System.out.printf("당신의 공격력이 %s으로 정해졌습니다!",k1.get공격력());
+				System.out.println();
+				System.out.println("초기 체력 스탯이 200에서 500중 랜덤으로 결정됩니다.");
+				k1.set체력(rd.nextInt(200,500));
+				System.out.printf("당신의 체력이 %s으로 정해졌습니다!",k1.get체력());
+				System.out.println();
+				System.out.println("초기 마나 스탯이 100에서 300중 랜덤으로 결정됩니다.");
+				k1.set마나(rd.nextInt(100,300));
+				System.out.printf("당신의 체력이 %s으로 정해졌습니다!",k1.get마나());
+				System.out.println();System.out.println();
+				System.out.println("정해진 스탯대로 캐릭터를 생성하시려면 Y를 눌러주십시오.");
+				System.out.println("입력이 Y가 아니라면, '아니오'로 간주하고 총 세번의 재설정 기회가 주어집니다.");
+				String nick = sc.next();
+				if(nick.equals("Y")||nick.equals("ㅛ")||nick.equals("y")) {
+					System.out.println("캐릭터를 생성합니다.");
+					break;
+				}
+				else {
+					if(io!=0) {
+						System.out.println("초기 스탯을 다시 결정합니다.");
+						io -= 1;
+						System.out.println(io);
+					}
+					else {
+						System.out.println();
+						System.out.println("예정된 리셋 기회를 전부 사용하셨습니다.");
+						System.out.println();
+						System.out.println("캐릭터를 생성합니다.");
+						break;
+					}
+				}
+		}
+		
+		System.out.println();
+		System.out.printf("당신의 캐릭터 이름은 %s입니다!",k1.get이름());
+		System.out.println();
+		System.out.printf("당신의 공격력이 %s으로 정해졌습니다!",k1.get공격력());
+		System.out.println();
+		System.out.printf("당신의 체력이 %s으로 정해졌습니다!",k1.get체력());
+		System.out.println();
+		System.out.printf("당신의 마나가 %s으로 정해졌습니다!",k1.get마나());
+		System.out.println();
+		System.out.println("튜토리얼 전투를 시작합니다.");
+		System.out.println("");
+		k1.set주현맘공격력(rd.nextInt(5,20));
+		k1.set주현맘마나(rd.nextInt(10,25));
+		k1.set주현맘체력(rd.nextInt(50,100));
+		io = k1.get주현맘공격력();
+		io +=k1.get주현맘마나();
+		io +=k1.get주현맘체력();
+		System.out.printf("튜토리얼 전투의 몬스터의 종합 능력치는 %s입니다.",io);
+		System.out.println();
+		String monster_name = "주현맘";
+		if(io>=135) {
+			System.out.println("전투등급 C급 주현맘이 전장에 출현했습니다.");
+		}
+		else if(io<=134&io>95) {
+			System.out.println("전투등급 D급 주현맘이 전장에 출현했습니다.");
+		}
+		else if(io<=94&io>65) {
+			System.out.println("전투등급 E급 주현맘이 전장에 출현했습니다.");
+		}
+		while(true) {
+			System.out.println("공격을 하시려면 A, 아이템을 사용하시려면 S, 스킬을 사용하시려면 D키를 눌러주세요.");
+			System.out.println("");
+			String main1 = sc.next();
+			if(main1.equals("ㅁ")||main1.equals("a")||main1.equals("A")) {
+				System.out.println("공격을 선택하셨습니다.");
+				k1.공격(k1.get이름(),k1.get공격력(),monster_name,k1.get주현맘체력());
+				if(k1.get주현맘체력()<=0) {
+					System.out.println("몬스터를 처치했습니다.");
+					System.out.println("튜토리얼 클리어");
+					break;
+				}
+			}
+			else if(main1.equals("ㄴ")||main1.equals("s")||main1.equals("S")) {
+				System.out.println("아이템 사용을 선택하셨습니다.");
+				k1.아이템사용(k1.get체력(), k1.get마나(), k1.get공격력());
+				
+			}
+			else if(main1.equals("ㅇ")||main1.equals("d")||main1.equals("D")) {
+				System.out.println("스킬 사용을 선택하셨습니다.");
+				k1.skill_1(k1.get이름(), k1.get마나(), k1.get주현맘체력());
+				if(k1.get주현맘체력()<=0) {
+					System.out.println("몬스터를 처치했습니다.");
+					System.out.println("튜토리얼 클리어");
+					break;
+				}
+			}
+			else {
+				k1.skill_1(k1.get이름(), k1.get마나(), k1.get주현맘체력());
+				if(k1.get주현맘체력()<=0) {
+					System.out.println("몬스터를 처치했습니다.");
+					System.out.println("튜토리얼 클리어");
+					break;
+				}
+			}
+			k1.주현맘의공격(k1.get주현맘공격력(),k1.get체력()); //
+			
+		}
+		
+		
+		
+		
+	}
+
+}
